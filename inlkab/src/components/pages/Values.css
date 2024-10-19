@@ -1,0 +1,16 @@
+.box-values {
+    background-image: conic-gradient(red, yellow, red);
+    padding: 20px;
+    border: 2px solid rgb(206, 202, 202);
+    border-radius: 5px;
+    color: white;
+}
+
+.head-values {
+    color: rgb(0, 252, 0);
+}
+
+.par-values {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}

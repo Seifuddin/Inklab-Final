@@ -1,0 +1,13 @@
+.facebook {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-clients {
+    background-color: rgb(226, 241, 241);
+}
+
+.sub-clients {
+    background-color: azure;
+    box-shadow: 4px 0px 4px rgba(red, green, blue, alpha);
+}

@@ -1,0 +1,27 @@
+
+.container-team {
+    background-color: blanchedalmond;
+}
+
+.box-team {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ceo {
+    width: 75%;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.imej-teamm {
+    width: 25%;
+    height: auto;
+}

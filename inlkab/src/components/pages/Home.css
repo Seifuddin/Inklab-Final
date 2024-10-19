@@ -1,0 +1,31 @@
+.home {
+    background-image: url('../images/891aa274f7fd54c02a1b2e5a16f4ff8b.jpg');
+    background-size: cover; /* cover the entire background */
+    background-position: center; /*center the background*/
+    background-repeat: no-repeat; /*avoid image repetition */
+    height: 100vh;
+    z-index: -1;
+}
+
+.home-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ttle {
+    color: green;
+}
+
+.container .second-ttl {
+    color: brown;
+}
+
+.home-info .par-home {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
