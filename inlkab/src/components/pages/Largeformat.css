@@ -1,0 +1,10 @@
+.img-LargeFormat {
+    width: 100%;
+    height: auto;
+}
+
+.cont-Largeformt {
+    background-color: beige;
+    border-radius: 20px;
+    border: 2px solid gray;
+}

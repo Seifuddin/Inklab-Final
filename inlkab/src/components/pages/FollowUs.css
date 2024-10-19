@@ -1,0 +1,19 @@
+.follow .imejji {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    background: black;
+}
+
+.follow-sub {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.follow {
+    width: 100%;
+    height: auto;
+}
