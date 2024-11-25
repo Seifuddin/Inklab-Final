@@ -1,0 +1,21 @@
+.select-select {
+    width: 80%;
+    float: right;
+}
+
+.btn-calc {
+    width: 50%;
+    height: auto;
+}
+
+.btn-calc:hover {
+    background-color: red;
+    color: white;
+}
+
+.lbl-1 {
+    float: left;
+}
+
+.container-form1 {
+}

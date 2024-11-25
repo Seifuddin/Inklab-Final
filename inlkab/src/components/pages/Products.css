@@ -1,0 +1,28 @@
+.container-products {
+    background-color: white;
+}
+
+.header-product {
+    color: red;
+}
+
+.item-list {
+    color: black;
+    font-size: larger;
+}
+
+.box-products {
+    box-shadow: 5px 5px 5px 5px rgb(15, 15, 15);
+    width: 100%;
+    min-height: 100%;
+}
+
+.service-1 {
+    color: blue;
+}
+
+.img-printin {
+    width: 70%;
+    max-height: 300px;
+    min-height: 300px;
+}

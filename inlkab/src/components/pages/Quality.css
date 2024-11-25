@@ -1,0 +1,58 @@
+.container-quality {
+}
+
+.imeg-quality {
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.imeg-quality:hover {
+    transform: scale(1.05);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.modal-image {
+    width: 90%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 90vh;
+    object-fit: contain; /* Ensure the image maintains aspect ration */
+    border-radius: 5px;
+}
+
+.header-quality {
+    color: red;
+}
+
+.box-quality .head-quality {
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    color: blue;
+}
+
+.box-quality {
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+.container-quality .heada-quality {
+    font-weight: bold;
+}

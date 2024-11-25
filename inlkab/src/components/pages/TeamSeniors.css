@@ -1,0 +1,30 @@
+.container-seniors {
+    border-radius: 10px;
+}
+
+.head-seniors {
+    color: red;
+}
+
+.img-seniors {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+
+.box-seniors {
+    border-radius: 15px;
+}
+
+.seniors-name {
+    padding: 5px;
+    color: blue;
+    border-radius: 10px;
+    margin: 10px 0px 10px;
+}
+
+.par-seniors {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}

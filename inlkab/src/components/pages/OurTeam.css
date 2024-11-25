@@ -1,6 +1,10 @@
 
 .container-team {
-    background-color: blanchedalmond;
+    background-color: black;
+}
+
+.ourteam {
+    background-color: rgb(63, 61, 61);
 }
 
 .box-team {

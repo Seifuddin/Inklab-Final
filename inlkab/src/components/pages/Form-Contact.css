@@ -1,0 +1,40 @@
+.container-contactusform {
+    position: relative;
+    top: 0;
+}
+
+.inpt {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.lbls {
+    width: 100%;
+    height: auto;
+
+}
+
+.btn-contact {
+    width: 35%;
+}
+
+.headar-formcntct {
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.form-contactus .btn-contact {
+    background: red;
+    color: white;
+}
+
+.btn-contact:hover {
+    background-color: yellow;
+    color: red;
+    border: 1px solid red;
+}

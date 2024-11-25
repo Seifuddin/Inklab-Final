@@ -1,13 +1,33 @@
+.container-clients {
+    background-color: black;
+}
+
+.sub-clients .h1-clients {
+    color: #00ff15;
+}
+
+.sub-clients .h3-clients {
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
 .facebook {
     max-width: 100%;
     height: auto;
 }
 
-.container-clients {
-    background-color: rgb(226, 241, 241);
+.sub-clients {
+    box-shadow: 4px 0px 4px rgba(red, green, blue, alpha);
 }
 
-.sub-clients {
-    background-color: azure;
-    box-shadow: 4px 0px 4px rgba(red, green, blue, alpha);
+.container-clients .saying-feedack {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.facebook {
+    width: 100%;
+    height: 100px;
 }

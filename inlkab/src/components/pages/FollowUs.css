@@ -1,19 +1,22 @@
 .follow .imejji {
-    width: 80%;
+    width: 50%;
     height: auto;
     border-radius: 20px;
     background: black;
 }
 
-.follow-sub {
+.follow {
+    position: relative;
     width: 100%;
     height: auto;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    border-bottom: 2px solid white;
 }
 
-.follow {
-    width: 100%;
-    height: auto;
+.follow-header {
+    color: #00ff15;
+}
+
+.follow .saying-follow {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
 }

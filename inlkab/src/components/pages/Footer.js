@@ -9,8 +9,8 @@ function Footer() {
         <div className="inklabfuter">
                 <img className='inklablogo' src={inklablogo} alt='email' />
          </div>
-         <h1 className='footer-header mt-3'>Capvim International Publishers</h1>
-         <h3 className='footer-header mt-3'>Turning Imagination into Reality</h3>
+         <h1 className='footer-header mt-3'>Inklab Graphics LTD</h1>
+         <h3 className='footer-header mt-3'>lets go printing...</h3>
          <h6 className='footer-header mt-3'>Design || Brand || Print</h6>
          <hr />
 

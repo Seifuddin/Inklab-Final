@@ -1,14 +1,27 @@
+.container-awards {
+    background: black;
+}
+
+.Awards-ttle {
+    color: #00ff15;
+}
+
 .imgtrophy {
-    max-width: 83%;
+    max-width: 60%;
     height: auto;
-    border: 2px solid white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .box .imgcolnel2 {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 50%;
     border: 2px solid white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .box {
@@ -19,25 +32,27 @@
 }
 
 .box .col {
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
     margin: 10px;
-}
-
-.par-header {
-    color: #00ff15;
-    font-weight: bold;
-    text-align: center;
+    background-color: rgb(63, 65, 65);
+    border-radius: 15px;
     padding: 10px;
-    border-radius: 20px;
-    width: fit-content;
-    height: auto;
-    animation-name: anim;
-    animation-duration: 2s;
-    animation-fill-mode: none;
 }
 
-.container-awards {
-    background: rgb(61, 59, 59);
+.award-header {
+    color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+.container-awards  .saying-mission {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.box .hedah {
+    color: blue;
 }
 
 @keyframes anim {
@@ -60,4 +75,8 @@
 .Trusted-ttle .OurMotto {
     border: none;
     box-shadow: 5px 5px 15px rgba(90, 2, 253, 0.5);
+}
+
+.hed-awrd {
+    font-family: 'Times New Roman', Times, serif;
 }

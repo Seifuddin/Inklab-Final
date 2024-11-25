@@ -1,0 +1,45 @@
+
+.container-address {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.head-address {
+    color: red;
+}
+
+.img-location {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.box-address {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-address2 {
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.p-open {
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.h1-address {
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -3,16 +3,25 @@ import './About.css';
 import History from "./Brifhistry";
 import Values from "./Values";
 import TheTeam from "./Theteam";
+import Seniors from "./TeamSeniors";
+import Address from "./Adress";
+import Products from "./Products";
+import Quality from "./Quality";
+import Commitment from "./Commitment";
 
 const About = () => {
 
     return (
-        <div className="container-about container-flex">
-            <h1 className="header-about display-2 fw-bold text-center">About Us</h1>
+        <div className="container-about bg-white container-flex">
 
             <History />
             <Values />
+            <Products />
+            <Quality />
+            <Commitment />
+            <Seniors />
             <TheTeam />
+            <Address />
         </div>
     );
 };

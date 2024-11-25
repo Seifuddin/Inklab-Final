@@ -10,8 +10,8 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='navbar'>
-            <div className='navbar-logo'>Capvim</div>
+        <nav className='navbar p-2'>
+            <div className='navbar-logo'>Inklab Graphics</div>
             <div className={`navbar-links ${isOpen ? 'open' : ''}`}>
                 <Link to='/' onClick={toggleNavbar}>Home</Link>
                 <Link to='/About' onClick={toggleNavbar}>About</Link>

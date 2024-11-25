@@ -1,0 +1,26 @@
+.container-homepage {
+    background: rgb(2, 2, 70);
+    background-image: url('../images/891aa274f7fd54c02a1b2e5a16f4ff8b.jpg');
+    background-size: cover; /* cover the entire background */
+    height: 100vh;
+    background-position: center; /*center the background*/
+    background-repeat: no-repeat; /*avoid image repetition */
+    border-bottom: 2px solid white;
+}
+
+.homepage-titl {
+    text-align: left;
+}
+
+.box-homepage .second-titl {
+    text-align: left;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-konika {
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

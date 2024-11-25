@@ -1,24 +1,33 @@
 .container-theteam {
-    background-color: aquamarine;
-    border: 2px solid rgb(206, 202, 202);
     border-radius: 10px;
+    margin-top: 40px ;
+}
+
+.head-theteam {
+    color: red;
+}
+
+.container-theteam .saying-teamm {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .img-theteam {
     width: 50%;
     height: auto;
     border-radius: 50%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    border: 5px solid blue;
 }
 
 .box-theteam {
-    box-shadow: 10px 10px 10px 10px gray;
+    border: 1px solid gray;
 }
 
 .theteam-name {
     padding: 5px;
-    box-shadow: 5px 5px 5px 5px gray;
-    margin: 10px 0px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.par-theteam {
+    color: black;
 }

@@ -1,14 +1,30 @@
 .container-histry {
-    background-image:  conic-gradient(red, blue, red);
-    border: 2px solid rgb(206, 202, 202);
     border-radius: 10px;
 }
 
 .head-histry {
-    color: rgb(0, 252, 0);
+    color: red;
 }
 
 .par-histry {
-    font-family: sans-serif;
     font-size: 1.3rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-inklablogoh {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+.header2-briefhistry {
+}
+
+.header-briefhistry {
+    color: red;
 }

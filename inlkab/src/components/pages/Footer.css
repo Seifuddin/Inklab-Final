@@ -19,6 +19,7 @@
     transform: translate(-50%);
     width: 10%;
     height: auto;
+    border-radius: 50%;
 }
 
 .futabox {

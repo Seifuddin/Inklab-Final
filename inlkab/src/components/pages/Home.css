@@ -5,6 +5,7 @@
     background-repeat: no-repeat; /*avoid image repetition */
     height: 100vh;
     z-index: -1;
+    border-bottom: 2px solid white;
 }
 
 .home-info {
@@ -14,8 +15,8 @@
     transform: translate(-50%, -50%);
 }
 
-.ttle {
-    color: green;
+.home-ttl {
+    color: #00ff;
 }
 
 .container .second-ttl {

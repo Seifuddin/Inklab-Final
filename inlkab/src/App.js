@@ -10,6 +10,8 @@ import Contacts from "./components/pages/Contacts";
 import Gallery from "./components/pages/Gallery";
 import Footer from "./components/pages/Footer";
 import LargeFormat from "./components/pages/Largeformat";
+import Calculator from "./components/pages/Calculator";
+import AnimatedHeading from "./components/pages/Text-effects";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/Contacts" element={<Contacts />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/largeformat" element={<LargeFormat />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/AnimatedHeading" element={<AnimatedHeading />} />
         </Routes>
         <Footer />
       </div>

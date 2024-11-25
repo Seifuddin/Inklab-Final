@@ -10,6 +10,7 @@ const Team = () => {
         <div className="container-team container-flex">
             <div className="ourteam container">
                 <h1 className="head-team h1 fw-bold display-4 text-center p-5">The Team</h1>
+                <p className="saying-mission display-6 text-white p-5">Our team is made of.</p>
                 <div className="row mb-5">
                     <div className="col-sm-12 col-md-6 col-lg-8 col-xl-8">
                         <div className="box-team p-5">
