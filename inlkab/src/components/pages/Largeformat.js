@@ -1,21 +1,21 @@
 import React from "react";
 import './Largeformat.css';
-import magazines from '../images/1000040016.jpg';
-import bannerz from '../images/1000040016.jpg';
-import wheel from '../images/1000040016.jpg';
-import xstand from '../images/1000040016.jpg';
-import broadbase from '../images/1000040016.jpg';
-import teardrop from '../images/1000040016.jpg';
-import popup from '../images/1000040016.jpg';
-import umbrella from '../images/1000040016.jpg';
-import backdrop from '../images/1000040016.jpg';
-import vinyl from '../images/1000040016.jpg';
-import vehiclez from '../images/1000040016.jpg';
-import kitc from '../images/1000040016.jpg';
-import outdoor from '../images/1000040016.jpg';
-import popuptent from '../images/1000040016.jpg';
-import snapper from '../images/1000040016.jpg';
-import forex from '../images/1000040016.jpg';
+import bannerz from '../images/large-fomat-printing-600x600.jpg';
+import wheel from '../images/wheel-cover-benefits(0).jpg';
+import xstand from '../images/1280x1280_X-stand_banner_03__73386.1626447544.jpg';
+import broadbase from '../images/e92886_a011b374f3994c87bc715aaf3737a15f~mv2.jpg';
+import teardrop from '../images/teardrop-banner-printing-3.webp';
+import popup from '../images/Pop-up-Banners-Oval.jpg';
+import umbrella from '../images/branded-umbrella-promotional-print-printfactory-lagos-ng.png';
+import backdrop from '../images/backdrop-800-x-800-1.jpg';
+import vinyl from '../images/hikeprint-vinyl-banner.png';
+import vehiclez from '../images/Vehicle-branding-1.png';
+import kitc from '../images/Untitleddesign_84_480x480_crop_center.png';
+import outdoor from '../images/patio Promotional umbrella by classic umbrella india umbrella manufacturers.jpg';
+import popuptent from '../images/GT-0110_2.webp';
+import snapper from '../images/Interbrand-Advertising-Snapper-frame-1080.jpg';
+import forex from '../images/untitled-799.jpg';
+import wallstickers from '../images/DSC00337ThinkDigital_566x566.jpg';
 import { useNavigate } from "react-router-dom";
 
 const LargeFormat = () => {
@@ -31,7 +31,7 @@ const LargeFormat = () => {
                 <h1 className="head-LajFomat rounded p-2 text-center text-white bg-danger display-6 fw-bold">Large Format Printing</h1>
 
                 <div className="row">
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6">
                         <div className="box-Largefromat border border-3 rounded container p-2">
                             <a href={bannerz} target="_blank" rel="noopener noreferrer">
                                 <img src={bannerz} alt="banners" className="img-LargeFormat" />
@@ -191,6 +191,17 @@ const LargeFormat = () => {
                                 <img src={forex} alt="forex" className="img-LargeFormat" />
                             </a>
                             <h3 className="h3-lformat h5 text-center fw-bold m-2  p-1 text-danger">Forex Board Direct Printing</h3>
+                            <h3 className="h3-lformat2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
+                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-danger  p-1 text-danger rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                        </div>
+                    </div>
+
+                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
+                        <div className="box-Largefromat border border-3 rounded container p-2">
+                            <a href={wallstickers} target="_blank" rel="noopener noreferrer">
+                                <img src={wallstickers} alt="wallstickers" className="img-LargeFormat" />
+                            </a>
+                            <h3 className="h3-lformat h5 text-center fw-bold m-2  p-1 text-danger">Wall stickers</h3>
                             <h3 className="h3-lformat2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-danger  p-1 text-danger rounded " onClick={handleButtonClick}> Get Quoatation </button>
                         </div>

@@ -1,6 +1,16 @@
 import React from "react";
 import './ClothBranding.css';
-import magazines from '../images/1000040016.jpg';
+import tshirt from '../images/Ladie-Tshirts-1.jpg';
+import hoodie from '../images/Custom-Hoodies-Design-Your-Own-Personalized-Photo-Text-Hoodie-Custom-Sweatshirt-4-Side-Print_680c35f2-d10d-4e90-bb49-21787b0e5fed.69924c438862a213d10d770905b72853.jpeg';
+import jersey from '../images/mens-adidas-red-louisville-cardinals-custom-replica-football-jersey_ss5_p-200464418 u-px5pwhvgwwydk0s8saub v-jqxoeoaukgi2n37vmsxn.jpg';
+import caps from '../images/merchandise-branded-caps-centurion-print-1.jpg';
+import reflectors from '../images/reflecgive-vests-600x653.gif';
+import uniforms from '../images/247-2470498_transparent-blue-dress-png-school-dress-images-png.png';
+import flag from '../images/31rAV18e8cL._QL92_SH45_SS200_.jpg';
+import overalls from '../images/He78ca553cba643cb8e5c9681d3a323eaW.jpg_300x300.jpg';
+import bags from '../images/non-woven-branded-bags.png';
+import towels from '../images/promotional-towels.png';
+import shirts from '../images/dropdown-printfactory-site-corporate-shirt.jpg';
 import { useNavigate } from "react-router-dom";
 
 const Cloth = () => {
@@ -18,8 +28,8 @@ const Cloth = () => {
                 <div className="row">
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={tshirt} target="_blank" rel="noopener noreferrer">
+                                <img src={tshirt} alt="tshirts" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">T-Shirt Branding</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -29,8 +39,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={hoodie} target="_blank" rel="noopener noreferrer">
+                                <img src={hoodie} alt="hoodies" className="img-clothebrnding" />
                             </a>
                             <h3 className="hh3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Hoodies</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -40,8 +50,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={jersey} target="_blank" rel="noopener noreferrer">
+                                <img src={jersey} alt="jerseys" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Jerseys</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -51,8 +61,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={caps} target="_blank" rel="noopener noreferrer">
+                                <img src={caps} alt="caps" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Caps</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -62,8 +72,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={reflectors} target="_blank" rel="noopener noreferrer">
+                                <img src={reflectors} alt="reflectors" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Reflector Jackets</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -73,8 +83,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={flag} target="_blank" rel="noopener noreferrer">
+                                <img src={flag} alt="flags" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Custom Flags</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -84,8 +94,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={uniforms} target="_blank" rel="noopener noreferrer">
+                                <img src={uniforms} alt="uniforms" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Uniforms</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -95,8 +105,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={overalls} target="_blank" rel="noopener noreferrer">
+                                <img src={overalls} alt="overalls" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Prons And Overalls</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -106,8 +116,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={bags} target="_blank" rel="noopener noreferrer">
+                                <img src={bags} alt="bags" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Bags</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -117,8 +127,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={towels} target="_blank" rel="noopener noreferrer">
+                                <img src={towels} alt="towels" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Towels</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
@@ -128,8 +138,8 @@ const Cloth = () => {
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-12 ">
                         <div className="box-clothes border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-LargeFormat" />
+                            <a href={shirts} target="_blank" rel="noopener noreferrer">
+                                <img src={shirts} alt="shirts" className="img-clothebrnding" />
                             </a>
                             <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Corporate Shirts</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>

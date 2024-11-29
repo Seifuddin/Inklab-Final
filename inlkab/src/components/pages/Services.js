@@ -17,7 +17,7 @@ import stafid from '../images/STAFF-ID-600x560.png';
 import photomounting from '../images/mounted-photo-print-shop-kenya.jpg';
 import lables from '../images/best-bold-font-3.jpg';
 import presentation from '../images/presentation-folder_04371926202312.jpg';
-import envelops from '../images/pngtree-notebooks-school-png-png-image_11470955.png';
+import envelops from '../images/Custom-Printed-Bulk-Printed-Envelopes-1.jpg';
 import receipt from '../images/large-receipt-pad.jpg';
 import certs from '../images/elegant-gradient-certificate-appreciation_23-2148967513.jpg';
 import cellotapes from '../images/printed-bopp-tapes-500x500.jpg';
@@ -240,8 +240,8 @@ const Services = () => {
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
                         <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="envelopes" className="img-digitalprnt" />
+                            <a href={envelops} target="_blank" rel="noopener noreferrer">
+                                <img src={envelops} alt="envelopes" className="img-digitalprnt" />
                             </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Envelopes</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>

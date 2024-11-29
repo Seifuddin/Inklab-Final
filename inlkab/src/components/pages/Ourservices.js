@@ -51,7 +51,7 @@ const Ourservices = () => {
                     <div className="col-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                         <div className="box-service">
                             <a href='https://www.tiktok.com/' target='_blank' rel='noopener noreferrer' >
-                                <img className='imej-printing border' src={signages} alt='signages' />
+                                <img className='imej-printing' src={signages} alt='signages' />
                             </a>
                             <h1 className="par-service h4">Signages</h1>
                             <p className="h-service">Digital Printing is our main business in Inklab Graphics Ltd. It is also refered to as the father of Inklab Graphics as it was also the first business we started with</p>
@@ -91,7 +91,7 @@ const Ourservices = () => {
                     <div className="col-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                         <div className="box-service">
                             <a href='https://www.tiktok.com/' target='_blank' rel='noopener noreferrer' >
-                                <img className='imej-printing border' src={d} alt='3d' />
+                                <img className='imej-printing' src={d} alt='3d' />
                             </a>
                             <h1 className="par-service h4">3D/ 2D Design</h1>
                             <p className="h-service">Digital Printing is our main business in Inklab Graphics Ltd. It is also refered to as the father of Inklab Graphics as it was also the first business we started with</p>

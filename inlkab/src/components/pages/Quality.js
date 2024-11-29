@@ -19,7 +19,7 @@ const Quality = () => {
     return (
         <div className="container-quality">
             <h1 className="header-quality text-center display-4 fw-bold p-3 "> Quality Assurance </h1>
-            <p className="heada-quality text-center h3 p-3 text-primary"> At Inklab Graphics, quality is at the core of everything we do. Our team performs a two-step quality inspection on each project, checking for color accuracy, clarity, and allignment. Equipped with Modern Konika Miolta Printers, we deliver precision and sharp detail on every print. We also use FSC-certified paper and faderesistant inks, offering clients eco-friendly long-lasting results. With industry-leading certifications and a customer-first approach, we ensure every project meets our rigorous standards. </p>
+            <p className="heada-quality text-center h4 p-3 text-primary"> At Inklab Graphics, quality is at the core of everything we do. Our team performs a two-step quality inspection on each project, checking for color accuracy, clarity, and allignment. Equipped with Modern Konika Miolta Printers, we deliver precision and sharp detail on every print. We also use FSC-certified paper and faderesistant inks, offering clients eco-friendly long-lasting results. With industry-leading certifications and a customer-first approach, we ensure every project meets our rigorous standards. </p>
             < div className="row m-5">
                 <div className="col">
                     <div className="box-quality container">

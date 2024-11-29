@@ -9,12 +9,12 @@ import youtube from '../images/social-media-icon-illustration-youtube-youtube-ic
 const Follow = () => {
     return (
         <div className="follow container-flex">
-            <div className="follow-sub container p-5">
+            <div className="follow-sub container">
             
             <h1 className="follow-header fw-bold display-5 text-center p-5">Follow Us</h1>
-            <p className="saying-follow h3 text-center">"Connect with us on social media and stay connected with us to keep up with our latest updates"</p>
+            <p className="saying-follow h3 text-center pb-5">"Connect with us on social media and stay connected with us to keep up with our latest updates"</p>
 
-                <div className="row p-5">
+                <div className="row m-3">
 
 
                 <div className="col">
