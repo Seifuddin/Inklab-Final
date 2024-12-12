@@ -1,8 +1,7 @@
 .imej-signage {
-    width: 100%;
-    height: auto;
-    display: flex;
-    
+    width: 60%;
+    height: 50%;
+     border-radius: 10px;
 }
 
 .box-signage {

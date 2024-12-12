@@ -7,13 +7,14 @@
 }
 
 .img-digitalprnt {
-    width: 100%;
-    height: 130px;
+    width: 50%;
+    height: 50%;
 }
 
 .box-digitalprinting {
     width: 100%;
-    height: 90%;
+    height: 100%;
+    max-height: fit-content;
 }
 
 .box-digitalprinting .h3-clients {
@@ -25,4 +26,12 @@
     position: relative;
     width: 100%;
     height: auto;
+}
+
+.imagebackground {
+    background-image: url('../images/891aa274f7fd54c02a1b2e5a16f4ff8b.jpg');
+    background-size: cover; /* cover the entire background */
+    background-position: center; /*center the background*/
+    background-repeat: no-repeat; /*avoid image repetition */
+    z-index: -1;
 }

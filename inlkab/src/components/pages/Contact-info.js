@@ -6,7 +6,7 @@ const Infocontact = () => {
 
     return (
         <div className="contactinfo container">
-            <div className="infocintact container">
+            <div className="infocintact container bg-light p-3 border border-danger">
                 <h3 className="head-contact-info display-6 text-danger text-center fw-bold p-5">Contact Information</h3>
                 <div className="row border bg-primary rounded">
                     <div className="col p-2">
@@ -22,7 +22,7 @@ const Infocontact = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-warning rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4 text-white">WhatsApp:</p>
@@ -36,7 +36,7 @@ const Infocontact = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-danger rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4 text-white">Email:</p>
@@ -50,7 +50,7 @@ const Infocontact = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-secondary rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4 text-white">YouTube:</p>
@@ -59,7 +59,7 @@ const Infocontact = () => {
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">muriithinguru@gmail.com</p>
+                        <p className="par-contact-info2 h4 text-white">Edwin Nguru</p>
                         </div>
                     </div>
                 </div>
@@ -73,12 +73,12 @@ const Infocontact = () => {
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">muriithinguru@gmail.com</p>
+                        <p className="par-contact-info2 h4 text-white">Inklab Graphics</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-warning rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4 text-white">TikTok:</p>
@@ -87,12 +87,12 @@ const Infocontact = () => {
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">muriithinguru@gmail.com</p>
+                        <p className="par-contact-info2 h4 text-white">Muriithi Nguru</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-danger rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4 text-white">Facebook:</p>
@@ -101,12 +101,12 @@ const Infocontact = () => {
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">muriithinguru@gmail.com</p>
+                        <p className="par-contact-info2 h4 text-white">Inklab Digital Printers</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-secondary rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4 text-white">Website:</p>
@@ -115,7 +115,7 @@ const Infocontact = () => {
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">muriithinguru@gmail.com</p>
+                        <p className="par-contact-info2 h4 text-white">www.inklabgraphics.com</p>
                         </div>
                     </div>
                 </div>

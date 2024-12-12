@@ -1,5 +1,9 @@
 .container-histry {
-    border-radius: 10px;
+    background-image: url('../images/891aa274f7fd54c02a1b2e5a16f4ff8b.jpg');
+    background-size: cover; /* cover the entire background */
+    background-position: center; /*center the background*/
+    background-repeat: no-repeat; /*avoid image repetition */
+    z-index: -1;
 }
 
 .head-histry {

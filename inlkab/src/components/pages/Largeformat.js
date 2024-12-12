@@ -31,7 +31,7 @@ const LargeFormat = () => {
                 <h1 className="head-LajFomat rounded p-2 text-center text-white bg-danger display-6 fw-bold">Large Format Printing</h1>
 
                 <div className="row">
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6">
+                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6">
                         <div className="box-Largefromat border border-3 rounded container p-2">
                             <a href={bannerz} target="_blank" rel="noopener noreferrer">
                                 <img src={bannerz} alt="banners" className="img-LargeFormat" />
@@ -42,7 +42,7 @@ const LargeFormat = () => {
                         </div>
                     </div>
 
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
+                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
                         <div className="box-Largefromat border border-3 rounded container p-2">
                             <a href={wheel} target="_blank" rel="noopener noreferrer">
                                 <img src={wheel} alt="wheelcovers" className="img-LargeFormat" />
@@ -185,7 +185,7 @@ const LargeFormat = () => {
                         </div>
                     </div>
 
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
+                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
                         <div className="box-Largefromat border border-3 rounded container p-2">
                             <a href={forex} target="_blank" rel="noopener noreferrer">
                                 <img src={forex} alt="forex" className="img-LargeFormat" />
@@ -196,7 +196,7 @@ const LargeFormat = () => {
                         </div>
                     </div>
 
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
+                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
                         <div className="box-Largefromat border border-3 rounded container p-2">
                             <a href={wallstickers} target="_blank" rel="noopener noreferrer">
                                 <img src={wallstickers} alt="wallstickers" className="img-LargeFormat" />

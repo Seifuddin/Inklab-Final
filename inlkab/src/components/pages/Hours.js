@@ -4,7 +4,7 @@ import './Hours.css';
 const Hours = () => {
 
     return (
-        <div className="container-hours container bg-light">
+        <div className="container-hours container bg-light p-3 border border-danger rounded">
             <h1 className="head-hours display-6 text-danger text-center fw-bold p-5"> Business Hours </h1>
             <div className="hours container">
                 <div className="row border bg-primary rounded">
@@ -21,7 +21,7 @@ const Hours = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-warning rounded">
                     <div className="col p-2">
                         <div className="box-hours">
                         <p className="par-hours h4 text-white">Saturday:</p>
@@ -35,7 +35,7 @@ const Hours = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-danger rounded">
                     <div className="col p-2">
                         <div className="box-hours">
                             <p className="par-hours h4 text-white">Sunday:</p>

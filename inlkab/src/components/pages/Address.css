@@ -1,22 +1,11 @@
-
-.container-address {
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin-top: 30px;
-    border-radius: 10px;
-}
-
 .head-address {
     color: red;
 }
 
 .img-location {
-    width: 100%;
+    width: 95%;
     height: auto;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+
 }
 
 .box-address {

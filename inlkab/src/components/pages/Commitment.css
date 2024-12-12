@@ -1,0 +1,17 @@
+.container-commitment {
+    background-color: beige;
+}
+
+.header-commitment {
+    color: red;
+}
+
+.imeg-commitment {
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.box-commitment {
+    background-color:  bisque;
+}

@@ -26,7 +26,7 @@ const Cloth = () => {
                 <h1 className="head-Cloth rounded p-2 text-center text-white bg-primary display-6 fw-bold">Cloth Branding</h1>
 
                 <div className="row">
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
+                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
                             <a href={tshirt} target="_blank" rel="noopener noreferrer">
                                 <img src={tshirt} alt="tshirts" className="img-clothebrnding" />
@@ -37,7 +37,7 @@ const Cloth = () => {
                         </div>
                     </div>
 
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
+                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
                         <div className="box-clothes border border-3 rounded container p-2">
                             <a href={hoodie} target="_blank" rel="noopener noreferrer">
                                 <img src={hoodie} alt="hoodies" className="img-clothebrnding" />

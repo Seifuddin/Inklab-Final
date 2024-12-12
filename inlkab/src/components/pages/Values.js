@@ -9,87 +9,57 @@ import innovation from '../images/innovation-vector-outline-icon-design-illustra
 const Values = () => {
 
     return (
-        <div className="container-values container p-5">
+        <div className="container-values p-5 border rounded m-5 bg-light">
             <h1 className="head-values display-6 text-center fw-bold p-3">Our Core Values</h1>
             <h1 className="header2-values h3 text-center p-3 pb-5 text-primary">At the heart of our success lies a steadfast commitment to the values that define who we are  and guide everything we do</h1>
             <div className="row">
                 <div className="col">
-                    <div className="box-values">
+                    <div className="box-values container">
                         <a href={creativity} target="_blank" rel="noopener noreferrer">
                             <img className="img-value border" src={creativity} alt='creativity'/>
                         </a>
-                        <h3 className="value text-center h-4">Creativity</h3>
+                        <h3 className="value text-center h-4 p-2 text-white m-3 bg-primary rounded">Creativity</h3>
                     </div>
                 </div>
 
                 <div className="col">
-                    <div className="box-values">
+                    <div className="box-values container">
                         <a href={collaboration} target="_blank" rel="noopener noreferrer">
                             <img className="img-value border" src={collaboration} alt='collaboration'/>
                         </a>
-                        <h3 className="value text-center h-4">Collaboration</h3>
+                        <h3 className="value text-center h-4 p-2 text-white m-3 bg-primary rounded">Collaboration</h3>
                     </div>
                 </div>
 
                 <div className="col">
-                    <div className="box-values">
+                    <div className="box-values container">
                         <a href={integrity} target="_blank" rel="noopener noreferrer">
                             <img className="img-value border" src={integrity} alt='integrity'/>
                         </a>
-                        <h3 className="value text-center h-4">Integrity</h3>
+                        <h3 className="value text-center h-4 p-2 text-white m-3 bg-primary rounded">Integrity</h3>
                     </div>
                 </div>
 
                 <div className="col">
-                    <div className="box-values">
+                    <div className="box-values container">
                         <a href={excellence} target="_blank" rel="noopener noreferrer">
                             <img className="img-value border" src={excellence} alt='excellence'/>
                         </a>
-                        <h3 className="value text-center h-4">Excellence</h3>
+                        <h3 className="value text-center h-4 p-2 text-white m-3 bg-primary rounded">Excellence</h3>
                     </div>
                 </div>
 
                 <div className="col">
-                    <div className="box-values">
+                    <div className="box-values container">
                         <a href={innovation} target="_blank" rel="noopener noreferrer">
                             <img className="img-value border" src={innovation} alt='innovation'/>
                         </a>
-                        <h3 className="value text-center h-4">Innovation</h3>
+                        <h3 className="value text-center h-4 p-2 text-white m-3 bg-primary rounded">Innovation</h3>
                     </div>
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-6">
-                    <div className="box-values2">
-                        <h3 className="value text-center h-4">Creativity</h3>
-                        <h1 className="header2-values h3 text-center p-3 pb-5 text-primary">At the heart of our success lies a steadfast commitment to the values that define who we are  and guide everything we do</h1>
                     </div>
-                </div>
-
-                
-                    <div className="col-6">
-                    <div className="row">
-                    <div className="col-12">
-                        <div className="box-values2">
-                            <h3 className="value text-center h-4">Collaboration</h3>
-                            <h1 className="header2-values h3 text-center p-3 pb-5 text-primary">At the heart of our success lies a steadfast commitment to the values that define who we are  and guide everything we do</h1>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div className="row">
-                    <div className="col-12">
-                        <div className="box-values2">
-                            <h3 className="value text-center h-4">Collaboration</h3>
-                            <h1 className="header2-values h3 text-center p-3 pb-5 text-primary">At the heart of our success lies a steadfast commitment to the values that define who we are  and guide everything we do</h1>
-                        </div>
-                    </div>
-                    </div>
-
-                    </div>
-                    </div>
-        </div>
     );
 };
 

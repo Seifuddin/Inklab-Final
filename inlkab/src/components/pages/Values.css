@@ -1,28 +1,24 @@
 .container-values {
-    background: white;
-}
-
-.container-values {
     margin: 30px;
     border-radius: 10px;
 }
 
 .box-values {
+    background-color: aquamarine;
+    width: 100%;
+    height: 90%;
     padding: 20px;
     border: 2px solid rgb(206, 202, 202);
     border-radius: 5px;
     color: black;
-    box-shadow: 5px 5px 5px 5px rgb(15, 15, 15);
 }
 
 .box-values2 {
     width: 100%;
-    height: 100%;
+    height: 90%;
     padding: 20px;
     border: 2px solid rgb(206, 202, 202);
     border-radius: 5px;
-    color: black;
-    box-shadow: 5px 5px 5px 5px rgb(15, 15, 15);
 }
 
 .head-values {
@@ -35,8 +31,8 @@
 }
 
 .img-value {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 70%;
 }
 
 .img-value2 {

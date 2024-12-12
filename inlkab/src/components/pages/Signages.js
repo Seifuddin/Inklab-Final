@@ -19,7 +19,7 @@ const Signage = () => {
     return (
         <div className="container-signage m-5">
             <h1 className="signage-header rounded p-2 text-center text-white bg-primary display-6 fw-bold m-4">Signages</h1>
-            <div className="sub-signage ">
+            <div className="sub-signage">
                 <div className="row">
                     <div className="col-xxl-4 col-xl-4 col-lg-6 col-sm-6 col-6">
                         <div className="box-signage border border-3 rounded container p-2">

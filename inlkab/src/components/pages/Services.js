@@ -46,13 +46,13 @@ const Services = () => {
             <h1 className="header-servise display-6 fw-bold text-center p-2">Inklab Graphics Ltd...</h1>
             <h1 className="header2-briefhistry h3 text-center text-primary">Srives to deliver a high quality proffessional services through applying expertise, specialist knowledge and universally accepted wisdom to the challenges facing our customers</h1>
 
-            <div className="cont-digitalprinting m-5">
+            <div className="cont-digitalprinting bg-light p-3 m-5">
                 <h1 className="head-digitalprint rounded p-2 text-center text-white bg-primary display-6 fw-bold">Digital Printing</h1>
             <h1 className="header-subservice h3 text-center text-primary">Srives to deliver a high quality proffessional services through applying expertise, specialist knowledge and universally accepted wisdom to the challenges facing our customers</h1>
 
                 <div className="row">
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
                             <a href={magazines} target="_blank" rel="noopener noreferrer">
                                 <img src={magazines} alt="magazines" className="img-digitalprnt" />
                             </a>

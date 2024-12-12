@@ -4,6 +4,7 @@
 }
 
 .img-clothebrnding {
-    width: 80%;
-    height: auto;
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
 }

@@ -15,7 +15,7 @@ const Contact = () => {
             </a>
             <h1 className="header-briefhistry display-6 fw-bold text-center">Inklab Graphics Ltd...</h1>
             <h1 className="header-contact display-5 fw-bold text-center">Contact Us</h1>
-            <h1 className="header-contact text-center h3 p-5">We'd love to hear from you! Whether you have questions, feedback, or need assistance, feel free to reach out using any of the methods below, and our team will be glad to assist you. </h1>
+            <h1 className="header-contact text-center h3 p-5 text-primary">We'd love to hear from you! Whether you have questions, feedback, or need assistance, feel free to reach out using any of the methods below, and our team will be glad to assist you. </h1>
             <Infocontact />
             <ContactForm />
             <Hours />
