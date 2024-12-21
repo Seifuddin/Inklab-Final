@@ -13,11 +13,6 @@
     height: auto;
 }
 
-.facebook {
-    max-width: 100%;
-    height: auto;
-}
-
 .sub-clients {
     box-shadow: 4px 0px 4px rgba(red, green, blue, alpha);
 }
@@ -28,6 +23,7 @@
 }
 
 .facebook {
-    width: 100%;
+    width: 130px;
     height: 100px;
+    border: 1px solid white;
 }

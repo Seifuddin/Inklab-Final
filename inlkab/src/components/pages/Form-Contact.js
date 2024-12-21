@@ -36,8 +36,9 @@ const ContactForm = () => {
 
     return (
         <div className="container-contactusform container">
-                <h3 className="head-contactform display-6 text-danger text-center fw-bold p-5">Send Us a message today</h3>
+            <h3 className="head-contactform display-6 text-danger text-center fw-bold p-5"></h3>
             <form className="form-contactus container bg-primary p-5 border border-3 border-warning rounded" onSubmit={handleSubmit}>
+            <h3 className="head-contactform display-6 text-white text-center fw-bold p-5">Send Us a message today</h3>
                 <h2 className="headar-formcntct h2 text-center p-3 text-warning rounded border border-white">Contact Us Today</h2>
                 <label className="lbls h4 text-white p-2">Name:</label>
                 <input

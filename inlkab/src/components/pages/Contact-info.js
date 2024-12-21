@@ -5,117 +5,117 @@ import phonne from '../images/phone-512.png';
 const Infocontact = () => {
 
     return (
-        <div className="contactinfo container">
-            <div className="infocintact container bg-light p-3 border border-danger">
-                <h3 className="head-contact-info display-6 text-danger text-center fw-bold p-5">Contact Information</h3>
-                <div className="row border bg-primary rounded">
+        <div className="contactinfo container mt-5">
+            <div className="infocintact container bg-light p-3 border rounded">
+                <h3 className="head-contact-info display-6 text-warning text-center fw-bold p-5">Contact Information</h3>
+                <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4 text-white">Telephone Number:</p>
+                        <p className="par-contact-info h4">Telephone Number:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">0111 608 331</p>
+                        <p className="par-contact-info2 h4">0111 608 331</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-warning rounded">
+                <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4 text-white">WhatsApp:</p>
+                        <p className="par-contact-info h4">WhatsApp:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">0111 608 331</p>
+                        <p className="par-contact-info2 h4">0111 608 331</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-danger rounded">
+                <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4 text-white">Email:</p>
+                        <p className="par-contact-info h4">Email:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">muriithinguru@gmail.com</p>
+                        <p className="par-contact-info2 h4">muriithinguru@gmail.com</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-secondary rounded">
+                <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4 text-white">YouTube:</p>
+                        <p className="par-contact-info h4">YouTube:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">Edwin Nguru</p>
+                        <p className="par-contact-info2 h4">Edwin Nguru</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-primary rounded">
+                <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4 text-white">Instagram:</p>
+                        <p className="par-contact-info h4">Instagram:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">Inklab Graphics</p>
+                        <p className="par-contact-info2 h4">Inklab Graphics</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-warning rounded">
+                <div className="row border bg-whiterounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4 text-white">TikTok:</p>
+                        <p className="par-contact-info h4">TikTok:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">Muriithi Nguru</p>
+                        <p className="par-contact-info2 h4">Muriithi Nguru</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-danger rounded">
+                <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4 text-white">Facebook:</p>
+                        <p className="par-contact-info h4">Facebook:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">Inklab Digital Printers</p>
+                        <p className="par-contact-info2 h4">Inklab Digital Printers</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row border bg-secondary rounded">
+                <div className="row border bg-whiterounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4 text-white">Website:</p>
+                        <p className="par-contact-info h4">Website:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4 text-white">www.inklabgraphics.com</p>
+                        <p className="par-contact-info2 h4">www.inklabgraphics.com</p>
                         </div>
                     </div>
                 </div>

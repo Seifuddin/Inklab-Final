@@ -2,8 +2,8 @@
 }
 
 .box-quality .imeg-quality {
-    width: 70%;
-    height: 35%;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 
@@ -46,7 +46,8 @@
     border: 1px solid gray;
     border-radius: 15px;
     width: 100%;
-    height: 100%;
+    height: auto;
+    min-height: 98%;
     margin: 10px;
 }
 

@@ -18,6 +18,8 @@
 
 .box-theteam {
     border: 1px solid gray;
+    width: 100%;
+    height: 95%;
 }
 
 .theteam-name {

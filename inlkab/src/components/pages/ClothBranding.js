@@ -21,24 +21,24 @@ const Cloth = () => {
     };
 
     return (
-        <div className="container-Cloth">
+        <div className="container-Cloth border rounded bg-white">
             <div className="cont-Cloth m-5">
-                <h1 className="head-Cloth rounded p-2 text-center text-white bg-primary display-6 fw-bold">Cloth Branding</h1>
+                <h1 className="head-Cloth rounded p-5 text-center text-danger display-6 fw-bold">Cloth Branding</h1>
 
                 <div className="row">
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                    <div className="col-xxl-3 col-xl-3 col-lg-7 col-md-6 col-6 ">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={tshirt} target="_blank" rel="noopener noreferrer">
                                 <img src={tshirt} alt="tshirts" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">T-Shirt Branding</h3>
+                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">T-Shirts</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
                         </div>
                     </div>
 
-                    <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                    <div className="col-xxl-3 col-xl-3 col-lg-5 col-md-6 col-6 ">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={hoodie} target="_blank" rel="noopener noreferrer">
                                 <img src={hoodie} alt="hoodies" className="img-clothebrnding" />
                             </a>
@@ -49,7 +49,7 @@ const Cloth = () => {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={jersey} target="_blank" rel="noopener noreferrer">
                                 <img src={jersey} alt="jerseys" className="img-clothebrnding" />
                             </a>
@@ -60,7 +60,7 @@ const Cloth = () => {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={caps} target="_blank" rel="noopener noreferrer">
                                 <img src={caps} alt="caps" className="img-clothebrnding" />
                             </a>
@@ -71,29 +71,29 @@ const Cloth = () => {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={reflectors} target="_blank" rel="noopener noreferrer">
                                 <img src={reflectors} alt="reflectors" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Reflector Jackets</h3>
+                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Reflectors</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={flag} target="_blank" rel="noopener noreferrer">
                                 <img src={flag} alt="flags" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Custom Flags</h3>
+                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Flags</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={uniforms} target="_blank" rel="noopener noreferrer">
                                 <img src={uniforms} alt="uniforms" className="img-clothebrnding" />
                             </a>
@@ -104,18 +104,18 @@ const Cloth = () => {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={overalls} target="_blank" rel="noopener noreferrer">
                                 <img src={overalls} alt="overalls" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Prons And Overalls</h3>
+                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Overalls</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={bags} target="_blank" rel="noopener noreferrer">
                                 <img src={bags} alt="bags" className="img-clothebrnding" />
                             </a>
@@ -126,7 +126,7 @@ const Cloth = () => {
                     </div>
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={towels} target="_blank" rel="noopener noreferrer">
                                 <img src={towels} alt="towels" className="img-clothebrnding" />
                             </a>
@@ -137,7 +137,7 @@ const Cloth = () => {
                     </div>
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-12 ">
-                        <div className="box-clothes border border-3 rounded container p-2">
+                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
                             <a href={shirts} target="_blank" rel="noopener noreferrer">
                                 <img src={shirts} alt="shirts" className="img-clothebrnding" />
                             </a>
@@ -146,6 +146,7 @@ const Cloth = () => {
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

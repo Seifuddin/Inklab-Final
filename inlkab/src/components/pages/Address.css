@@ -3,22 +3,9 @@
 }
 
 .img-location {
-    width: 95%;
+    width: 25%;
     height: auto;
-
-}
-
-.box-address {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.box-address2 {
-    border: none;
-    padding: 20px;
-    text-align: center;
+    border-radius: 50%;
 }
 
 .p-open {
@@ -31,4 +18,10 @@
     color: red;
     padding: 10px;
     border-radius: 10px;
+}
+
+.box-address {
+    width: 100%;
+    height: auto;
+
 }

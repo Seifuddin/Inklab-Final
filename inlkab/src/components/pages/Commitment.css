@@ -1,5 +1,4 @@
 .container-commitment {
-    background-color: beige;
 }
 
 .header-commitment {
@@ -13,5 +12,5 @@
 }
 
 .box-commitment {
-    background-color:  bisque;
+    border-radius: 3px solid gray;
 }

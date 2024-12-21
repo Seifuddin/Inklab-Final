@@ -39,23 +39,25 @@ const Services = () => {
     };
 
     return (
-        <div className="container-service">
-            <a href={inklablogoh} target="_blank" rel="noopener noreferrer">
-                <img className="img-inklablogoh" src={inklablogoh} alt='inklab logo'/>
-            </a>
-            <h1 className="header-servise display-6 fw-bold text-center p-2">Inklab Graphics Ltd...</h1>
-            <h1 className="header2-briefhistry h3 text-center text-primary">Srives to deliver a high quality proffessional services through applying expertise, specialist knowledge and universally accepted wisdom to the challenges facing our customers</h1>
+        <div className="container-service bg-white">
+            <div className="heada-all bg-primary">
+                <a href={inklablogoh} target="_blank" rel="noopener noreferrer">
+                    <img className="img-inklablogoh" src={inklablogoh} alt='inklab logo'/>
+                </a>
+                <h1 className="header-servise display-6 fw-bold text-center text-white p-2">Inklab Graphics Ltd...</h1>
+                <h1 className="header2-briefhistry h3 text-center text-white p-5">Srives to deliver a high quality proffessional services through applying expertise, specialist knowledge and universally accepted wisdom to the challenges facing our customers</h1>
+            </div>
 
-            <div className="cont-digitalprinting bg-light p-3 m-5">
-                <h1 className="head-digitalprint rounded p-2 text-center text-white bg-primary display-6 fw-bold">Digital Printing</h1>
-            <h1 className="header-subservice h3 text-center text-primary">Srives to deliver a high quality proffessional services through applying expertise, specialist knowledge and universally accepted wisdom to the challenges facing our customers</h1>
+            <div className="cont-digitalprinting bg-white p-5">
+                <h1 className="head-digitalprint rounded p-2 text-center text-danger display-6 fw-bold">Digital Printing</h1>
+            <h1 className="header-subservice h3 text-center text-primary p-5">Srives to deliver a high quality proffessional services through applying expertise, specialist knowledge and universally accepted wisdom to the challenges facing our customers</h1>
 
                 <div className="row">
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
                         <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
-                            <a href={magazines} target="_blank" rel="noopener noreferrer">
-                                <img src={magazines} alt="magazines" className="img-digitalprnt" />
-                            </a>
+                                <a href={magazines} target="_blank" rel="noopener noreferrer">
+                                    <img src={magazines} alt="magazines" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Margazines</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -63,21 +65,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={bscards} target="_blank" rel="noopener noreferrer">
-                                <img src={bscards} alt="bscards" className="img-digitalprnt" />
-                            </a>
-                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Business Cards</h3>
-                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={bronchures} target="_blank" rel="noopener noreferrer">
-                                <img src={bronchures} alt="bronchures" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={bronchures} target="_blank" rel="noopener noreferrer">
+                                    <img src={bronchures} alt="bronchures" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Bronchures</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -85,10 +76,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={fliers} target="_blank" rel="noopener noreferrer">
-                                <img src={fliers} alt="fliers" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={fliers} target="_blank" rel="noopener noreferrer">
+                                    <img src={fliers} alt="fliers" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Fliers</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -96,10 +87,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={calendars} target="_blank" rel="noopener noreferrer">
-                                <img src={calendars} alt="calendars" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={calendars} target="_blank" rel="noopener noreferrer">
+                                    <img src={calendars} alt="calendars" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Calendars</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -107,10 +98,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={eulogy} target="_blank" rel="noopener noreferrer">
-                                <img src={eulogy} alt="eulogy" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={eulogy} target="_blank" rel="noopener noreferrer">
+                                    <img src={eulogy} alt="eulogy" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Eulogies</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -118,10 +109,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={diaries} target="_blank" rel="noopener noreferrer">
-                                <img src={diaries} alt="diaries" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={diaries} target="_blank" rel="noopener noreferrer">
+                                    <img src={diaries} alt="diaries" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Diaries</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -129,10 +120,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={books} target="_blank" rel="noopener noreferrer">
-                                <img src={books} alt="books" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={books} target="_blank" rel="noopener noreferrer">
+                                    <img src={books} alt="books" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Books</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -140,21 +131,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={wedding} target="_blank" rel="noopener noreferrer">
-                                <img src={wedding} alt="wedding" className="img-digitalprnt" />
-                            </a>
-                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Wedding Cards</h3>
-                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={notebuk} target="_blank" rel="noopener noreferrer">
-                                <img src={notebuk} alt="notebuk" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={notebuk} target="_blank" rel="noopener noreferrer">
+                                    <img src={notebuk} alt="notebuk" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Notebooks</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -162,10 +142,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={poster} target="_blank" rel="noopener noreferrer">
-                                <img src={poster} alt="posters" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={poster} target="_blank" rel="noopener noreferrer">
+                                    <img src={poster} alt="posters" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Posters</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -173,10 +153,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={letterhead} target="_blank" rel="noopener noreferrer">
-                                <img src={letterhead} alt="letterheads" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={letterhead} target="_blank" rel="noopener noreferrer">
+                                    <img src={letterhead} alt="letterheads" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Letterhead</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -184,10 +164,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={stickers} target="_blank" rel="noopener noreferrer">
-                                <img src={stickers} alt="stickers" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={stickers} target="_blank" rel="noopener noreferrer">
+                                    <img src={stickers} alt="stickers" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Stickers</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -195,10 +175,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={stafid} target="_blank" rel="noopener noreferrer">
-                                <img src={stafid} alt="staff id" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={stafid} target="_blank" rel="noopener noreferrer">
+                                    <img src={stafid} alt="staff id" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Staff IDs</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -206,43 +186,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={photomounting} target="_blank" rel="noopener noreferrer">
-                                <img src={photomounting} alt="photomounting" className="img-digitalprnt" />
-                            </a>
-                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Photo Mounting</h3>
-                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={lables} target="_blank" rel="noopener noreferrer">
-                                <img src={lables} alt="productlabels" className="img-digitalprnt" />
-                            </a>
-                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Product Labels</h3>
-                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={presentation} target="_blank" rel="noopener noreferrer">
-                                <img src={presentation} alt="presentaionfolders" className="img-digitalprnt" />
-                            </a>
-                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Presentation Folder</h3>
-                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={envelops} target="_blank" rel="noopener noreferrer">
-                                <img src={envelops} alt="envelopes" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={envelops} target="_blank" rel="noopener noreferrer">
+                                    <img src={envelops} alt="envelopes" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Envelopes</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -250,10 +197,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={receipt} target="_blank" rel="noopener noreferrer">
-                                <img src={receipt} alt="receiptbooks" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={receipt} target="_blank" rel="noopener noreferrer">
+                                    <img src={receipt} alt="receiptbooks" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Receipt Books</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -261,10 +208,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={certs} target="_blank" rel="noopener noreferrer">
-                                <img src={certs} alt="certificates" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={certs} target="_blank" rel="noopener noreferrer">
+                                    <img src={certs} alt="certificates" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Certificates</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -272,21 +219,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={cellotapes} target="_blank" rel="noopener noreferrer">
-                                <img src={cellotapes} alt="cellotapes" className="img-digitalprnt" />
-                            </a>
-                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Custom Cellotapes</h3>
-                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={gifts} target="_blank" rel="noopener noreferrer">
-                                <img src={gifts} alt="giftbags" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={gifts} target="_blank" rel="noopener noreferrer">
+                                    <img src={gifts} alt="giftbags" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Gift Bags</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -294,10 +230,10 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={tentcards} target="_blank" rel="noopener noreferrer">
-                                <img src={tentcards} alt="tentcards" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                        <a href={tentcards} target="_blank" rel="noopener noreferrer">
+                                    <img src={tentcards} alt="tentcards" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Tent Cards</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
@@ -305,11 +241,77 @@ const Services = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4  col-6">
-                        <div className="box-digitalprinting border border-3 rounded container p-2">
-                            <a href={packaging} target="_blank" rel="noopener noreferrer">
-                                <img src={packaging} alt="packaging" className="img-digitalprnt" />
-                            </a>
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={packaging} target="_blank" rel="noopener noreferrer">
+                                    <img src={packaging} alt="packaging" className="img-digitalprnt" />
+                                </a>
                             <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Packaging</h3>
+                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
+                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                        </div>
+                    </div>
+
+                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={bscards} target="_blank" rel="noopener noreferrer">
+                                    <img src={bscards} alt="bscards" className="img-digitalprnt" />
+                                </a>
+                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Business Cards</h3>
+                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
+                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                        </div>
+                    </div>
+
+                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={lables} target="_blank" rel="noopener noreferrer">
+                                    <img src={lables} alt="productlabels" className="img-digitalprnt" />
+                                </a>
+                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Product Labels</h3>
+                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
+                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                        </div>
+                    </div>
+
+                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={wedding} target="_blank" rel="noopener noreferrer">
+                                    <img src={wedding} alt="wedding" className="img-digitalprnt" />
+                                </a>
+                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Wedding Cards</h3>
+                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
+                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                        </div>
+                    </div>
+
+                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={photomounting} target="_blank" rel="noopener noreferrer">
+                                    <img src={photomounting} alt="photomounting" className="img-digitalprnt" />
+                                </a>
+                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Photo Mounting</h3>
+                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
+                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                        </div>
+                    </div>
+
+                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={presentation} target="_blank" rel="noopener noreferrer">
+                                    <img src={presentation} alt="presentaionfolders" className="img-digitalprnt" />
+                                </a>
+                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary">Presentation Folder</h3>
+                            <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
+                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                        </div>
+                    </div>
+
+                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
+                        <div className="box-digitalprinting border border-3 rounded container p-2 bg-light">
+                                <a href={cellotapes} target="_blank" rel="noopener noreferrer">
+                                    <img src={cellotapes} alt="cellotapes" className="img-digitalprnt" />
+                                </a>
+                            <h3 className="h3-clients1 h5 text-center fw-bold m-2  p-1 text-primary"> Custom Cellotapes</h3>
                             <h3 className="h3-clients h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
                         </div>
