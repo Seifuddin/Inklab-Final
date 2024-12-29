@@ -22,7 +22,7 @@ const Infocontact = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-white rounded">
+                <div className="row">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4">WhatsApp:</p>
@@ -50,7 +50,7 @@ const Infocontact = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-white rounded">
+                <div className="row">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4">YouTube:</p>
@@ -78,7 +78,7 @@ const Infocontact = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-whiterounded">
+                <div className="row">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4">TikTok:</p>
@@ -106,7 +106,7 @@ const Infocontact = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-whiterounded">
+                <div className="row">
                     <div className="col p-2">
                         <div className="box-contactinfo">
                         <p className="par-contact-info h4">Website:</p>

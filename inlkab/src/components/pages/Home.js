@@ -12,7 +12,7 @@ import Homepage from "./Homepage";
 
 const Home = () => {
     return (
-        <div className="container-home container-flex">
+        <div className="container-home container-flex bg-dark">
             <Homepage />
             <Mission />
             <Ourservices />

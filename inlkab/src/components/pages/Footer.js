@@ -35,10 +35,10 @@ function Footer() {
 
          <div className='futa-info mt-5'>
             <div className='row'>
-            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white rounded bg-secondary" onClick={handleButtonClick}> Services </button>
-            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white rounded bg-secondary" onClick={handleButtonClick2}> Home</button>
-            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white rounded bg-secondary" onClick={handleButtonClick3}> About </button>
-            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white rounded bg-secondary" onClick={handleButtonClick4}> Contacts </button>
+            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white border text border-secondary rounded bg-secondary" onClick={handleButtonClick}> Services </button>
+            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white border border-secondary rounded bg-secondary" onClick={handleButtonClick2}> Home</button>
+            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white border border-secondary rounded bg-secondary" onClick={handleButtonClick3}> About </button>
+            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white rounded border border-secondary bg-secondary" onClick={handleButtonClick4}> Contacts </button>
 
                 <div className='col-xl-4 col-lg-4 col-sm-12'>
                     <div className='futabox text-white text-center'>

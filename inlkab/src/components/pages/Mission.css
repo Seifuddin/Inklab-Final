@@ -2,24 +2,8 @@
     background: black;
 }
 
-@keyframes myAnimation {
-    from {
-        top: 0px;
-    }
-
-    to {
-        top: 200px;
-    }
-}
-
 .container-mission .ttle-aboutus {
     color: rgb(2, 248, 2);
-    animation-name: myAnimation;
-    animation-duration: 2s;
-    animation-direction: reverse;
-    position: relative;
-    width: 100%;
-    height: auto;
 }
 
 .container-mission .saying-mission {

@@ -12,21 +12,21 @@ const Mission = () => {
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                     <div className="box-mission p-5 border">
                         <p className="par-mission1 h4 fw-bold text-center">Our Mission</p>
-                        <p className="par-mission">To be a partner of choice by delivering convenient, cost-effective products and proffessional services in Printing & Branding, at competitive prices, throughout the business community with effective consultation, a superior ordering process and on-time delivery.</p>
+                        <p className="par-mission">Our mission is to deliver outstanding printing services that exceed customer expectations, using the latest technology and top-quality materials. We are committed to providing personalized solutions, fostering creativity, and building lasting relationships with our clients while ensuring efficiency, reliability, and sustainability in every project we undertake.</p>
                     </div>
                 </div>
 
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                     <div className="box-mission rounded border">
                         <p className="par-mission1 h3 fw-bold text-center">Our Vision</p>
-                        <p className="par-mission">Our Vision is to offer local and International organizations the finest of products and services in the market through INKLAB GRAPHICS LIMITED.</p>
+                        <p className="par-mission">Our Vision is to offer local and International organizations the finest of products and services in the market through INKLAB GRAPHICS LIMITED. To be the leading provider of innovative and high-quality printing solutions, empowering businesses and individuals to express their creativity with precision, durability, and exceptional service</p>
                     </div>
                 </div>
 
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                     <div className="box-mission rounded border">
-                        <p className="par-mission1 h3 fw-bold text-center">Our Motto</p>
-                        <p className="par-mission">We are committed to excellence in Print and Branding.</p>
+                        <p className="par-mission1 h3 fw-bold text-center">Core Objective</p>
+                        <p className="par-mission"> Our objective is to obtain mega realizable contracts so as to maximize the usage of our present resources and information, with a pragmatic approach in developing solutions, so as to meet the needs of our clients as well as enable Inlkb Graphics LTD achieve profit targets set from time to time.</p>
                     </div>
                 </div>
 

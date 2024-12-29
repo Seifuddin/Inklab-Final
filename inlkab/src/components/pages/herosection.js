@@ -1,21 +1,20 @@
 import React from "react";
-import './Promotional.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colonel from '../images/General_Service_Unit.jpg';
+import './herosection.css';
 import pens from '../images/82086d.jpg';
-import cases from '../images/f95882d53857e26a7a066108f9bac3b3(0).jpg';
-import bottles from '../images/Aluminum-Bottle-White.png';
-import pads from '../images/Branded-Mouse-Pads.png';
-import mugs from '../images/branded-mugs-in-kenya-2.jpg';
-import tags from '../images/id-card-design-background-600nw-2124667253.jpg';
-import bands from '../images/mulicolor-wrist-band-500x500.jpg';
-import holders from '../images/plastic-keyrings.jpg';
-import disks from '../images/promotional-flash-drives_2_1.jpg';
-import ids from '../images/staff-cards.jpg';
-import clocks from '../images/118003450_screenshot-20200827-134948-facebook_620x742.webp';
+import cases from '../images/The-Most-Beautiful-Brand-Books-and-Brand-Guidelines-Examples-6-Brand-Book-Templates-1.webp';
+import bottles from '../images/blog-logo-3.jpg';
+import pads from '../images/ed5d6dc92d927a1887880b28574b0634.jpg';
+import mugs from '../images/11x6-real-estate-eddm-postcard-direct-mail-1024x761.jpg';
+import tags from '../images/reflecgive-vests-600x653.gif';
+import bands from '../images/iphone_apps.jpg';
+import holders from '../images/How-to-Edit-Videos.jpg';
+import disks from '../images/Custom-Hoodies-Design-Your-Own-Personalized-Photo-Text-Hoodie-Custom-Sweatshirt-4-Side-Print_680c35f2-d10d-4e90-bb49-21787b0e5fed.69924c438862a213d10d770905b72853.jpeg';
+import ids from '../images/Lightbox-Signage-exotic-Banners.jpg';
+import clocks from '../images/82086d.jpg';
 
-const Promotional = () => {
+const Section = () => {
 
     const responsive = {
         superLargeDesktop: {
@@ -56,89 +55,77 @@ const Promotional = () => {
   };
 
     return (
-        <div className="container-promotional p-5">
-            <h1 className="header-promotional display-4 text-center fw-bold">Promotional Items</h1>
-            <p className="saying-promotional h3 text-center pb-5">"Boost your brand with custom promotional products that get you noticed"</p>
+        <div className="container-promotional rounded-3 border pl-0 p-3">
+            <h1 className="header-promotional display-6 text-center fw-bold">Our Work</h1>
             <Carousel responsive={responsive}>
                 <div className="Item-1">
                     <a href={pens} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional border" src={pens} alt='pens'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Pens</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={cases} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={cases} alt='cases'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Phone Cases</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={bottles} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional border" src={bottles} alt='bottles'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Bottles & Flasks</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={pads} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={pads} alt='pads'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Mouse Pads </h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={mugs} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={mugs} alt='mugs'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Mugs </h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={tags} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={tags} alt='tags'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Name tags</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={bands} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={bands} alt='bands'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Wrist Bands</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={holders} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={holders} alt='holders'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Key Holders</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={disks} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={disks} alt='disks'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> Hard Drives</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={ids} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={ids} alt='ids'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> ID cards</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={clocks} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={clocks} alt='clocks'/>
                     </a>
-                    <h1 className="headar-promotional h4 text-center"> ID cards</h1>
                 </div>
 
             </Carousel>;
         </div>
     );
 };
-export default Promotional;
+export default Section;

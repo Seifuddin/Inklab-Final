@@ -21,7 +21,7 @@ const Hours = () => {
                     </div>
                 </div>
 
-                <div className="row border bg-white rounded">
+                <div className="row">
                     <div className="col p-2">
                         <div className="box-hours">
                         <p className="par-hours h4">Saturday:</p>

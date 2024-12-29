@@ -50,7 +50,7 @@ const Services = () => {
 
             <div className="cont-digitalprinting bg-white p-5">
                 <h1 className="head-digitalprint rounded p-2 text-center text-danger display-6 fw-bold">Digital Printing</h1>
-            <h1 className="header-subservice h3 text-center text-primary p-5">Srives to deliver a high quality proffessional services through applying expertise, specialist knowledge and universally accepted wisdom to the challenges facing our customers</h1>
+            <h1 className="header-subservice h4 text-center text-primary p-5">Digital printing is a modern printing method that offers high-quality and cost-effective solutions for both small and large-scale projects. Ideal for vibrant graphics and intricate details, this service is perfect for business cards, flyers, brochures, banners, and more.</h1>
 
                 <div className="row">
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">

@@ -26,9 +26,10 @@ const LargeFormat = () => {
     };
 
     return (
-        <div className="container-LargeFormat" id="largeformat">
+        <div className="container-LargeFormat pb-5" id="largeformat">
             <div className="cont-Largeformt m-5">
-                <h1 className="head-LajFomat rounded p-2 text-center text-white p-5 display-6 fw-bold m-5 mt-0">Large Format Printing</h1>
+                <h1 className="head-LajFomat rounded p-2 text-center text-white p-3 display-6 fw-bold m-5 mt-0">Large Format Printing</h1>
+            <h1 className="signage-header2 h4 rounded pb-4 text-center text-warning">Make a big impact with our large format printing services! Perfect for banners, posters, signs, and other oversized materials, this printing method delivers sharp, high-resolution visuals on a variety of materials.</h1>
 
                 <div className="row">
                     <div className="col-xxl-3 col-xl-3 col-lg-12 col-md-6 col-6">
