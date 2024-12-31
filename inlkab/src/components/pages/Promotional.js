@@ -56,7 +56,7 @@ const Promotional = () => {
   };
 
     return (
-        <div className="container-promotional p-5">
+        <div className="container-promotional p-5 bg-white border">
             <h1 className="header-promotional display-4 text-center fw-bold">Promotional Items</h1>
             <p className="saying-promotional h3 text-center pb-5">"Boost your brand with custom promotional products that get you noticed"</p>
             <Carousel responsive={responsive}>

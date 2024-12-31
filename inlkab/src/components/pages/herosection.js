@@ -55,8 +55,8 @@ const Section = () => {
   };
 
     return (
-        <div className="container-promotional rounded-3 border pl-0 p-3">
-            <h1 className="header-promotional display-6 text-center fw-bold">Our Work</h1>
+        <div className="container-promotionall rounded-3 border p-3">
+            <h1 className="header-promotional display-6 text-center fw-bold text-dark">Our Work</h1>
             <Carousel responsive={responsive}>
                 <div className="Item-1">
                     <a href={pens} target="_blank" rel="noopener noreferrer">

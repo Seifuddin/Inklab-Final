@@ -17,13 +17,13 @@ import critical from '../images/IMG_20241109_002244_764~2.jpg';
 const Clients = () => {
 
     return (
-        <div className="container-clients container-flex">
+        <div className="container-clients container-flex bg-white">
             <div className="sub-clients container rounded p-5">
                 <h1 className="h1-clients h1 fw-bold text-center p-5">Our Clients...</h1>
-                <p className="saying-feedack p-5 pt-0 text-center h3">"Our partners in success. Proudly serving clients from all industries and building lasting relationships through quality printing"</p>
+                <p className="saying-feedack text-center h3 fw-bold">"Our partners in success. Proudly serving clients from all industries and building lasting relationships through quality printing"</p>
                 <div className="row">
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={gok} target="_blank" rel="noopener noreferrer">
                                 <img src={gok} alt="gok" className="facebook" />
                             </a>
@@ -32,7 +32,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={lemaiyan} target="_blank" rel="noopener noreferrer">
                                 <img src={lemaiyan} alt="lemaiyan" className="facebook border" />
                             </a>
@@ -41,7 +41,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={aggrey} target="_blank" rel="noopener noreferrer">
                                 <img src={aggrey} alt="aggrey" className="facebook" />
                             </a>
@@ -50,7 +50,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={mangu} target="_blank" rel="noopener noreferrer">
                                 <img src={mangu} alt="mangu" className="facebook" />
                             </a>
@@ -59,7 +59,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={sombe} target="_blank" rel="noopener noreferrer">
                                 <img src={sombe} alt="sombe" className="facebook" />
                             </a>
@@ -68,7 +68,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={serene} target="_blank" rel="noopener noreferrer">
                                 <img src={serene} alt="serene" className="facebook" />
                             </a>
@@ -77,7 +77,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={alma} target="_blank" rel="noopener noreferrer">
                                 <img src={alma} alt="alma" className="facebook" />
                             </a>
@@ -86,7 +86,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={algorithmic} target="_blank" rel="noopener noreferrer">
                                 <img src={algorithmic} alt="algorithmic" className="facebook" />
                             </a>
@@ -95,7 +95,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={nima} target="_blank" rel="noopener noreferrer">
                                 <img src={nima} alt="nima" className="facebook" />
                             </a>
@@ -104,7 +104,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={critical} target="_blank" rel="noopener noreferrer">
                                 <img src={critical} alt="critiacal" className="facebook" />
                             </a>
@@ -113,7 +113,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={motospot} target="_blank" rel="noopener noreferrer">
                                 <img src={motospot} alt="motospot" className="facebook" />
                             </a>
@@ -122,7 +122,7 @@ const Clients = () => {
                     </div>
 
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients">
+                        <div className="box-clients m-3">
                             <a href={kisasi} target="_blank" rel="noopener noreferrer">
                                 <img src={kisasi} alt="kisasi" className="facebook" />
                             </a>

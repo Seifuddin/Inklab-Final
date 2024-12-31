@@ -8,7 +8,7 @@ import youtube from '../images/social-media-icon-illustration-youtube-youtube-ic
 
 const Follow = () => {
     return (
-        <div className="follow container-flex">
+        <div className="follow container-flex pb-5 bg-light">
             <div className="follow-sub container">
             
             <h1 className="follow-header fw-bold display-5 text-center p-5">Follow Us</h1>

@@ -49,6 +49,7 @@
     height: auto;
     min-height: 98%;
     margin: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 
 .container-quality .heada-quality {

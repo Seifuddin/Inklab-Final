@@ -13,27 +13,32 @@
 
 .container-promotional .saying-promotional {
     font-family: 'Times New Roman', Times, serif;
-    color: yellow;
+    color: black;
 }
 
 .header-promotional {
-    color: #00ff15;
+    color: black;
     padding: 20px;
     margin: 20px;
 }
 
+.Item-1 {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
 .Item-1 .headar-promotional {
-    width: 90%;
+    width: 100%;
     min-height: 100%;
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    margin: 10px;
+    color: black;
+    background-color: lightgrey;
 }
 
 .header-promotionals {
     background-color: purple;
-    color: white;
+    color: black;
     border-radius: 10px;
     padding: 5px;
 }

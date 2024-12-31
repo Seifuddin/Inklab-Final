@@ -3,20 +3,21 @@
     height: auto;
     border-radius: 20px;
     background: black;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 
 .follow {
     position: relative;
     width: 100%;
     height: auto;
-    margin-bottom:  30px;
+    margin-bottom:  100px;
 }
 
 .follow-header {
-    color: #00ff15;
+    color: black;
 }
 
 .follow .saying-follow {
     font-family: 'Times New Roman', Times, serif;
-    color: yellow;
+    color: black;
 }

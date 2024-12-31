@@ -3,7 +3,7 @@
 }
 
 .Awards-ttle {
-    color: #00ff15;
+    color: black;
 }
 
 .imgtrophy {
@@ -24,6 +24,10 @@
     transform: translate(-50%);
 }
 
+.hedah {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
 .box {
     display: block;
     width: 100%;
@@ -39,7 +43,7 @@
 }
 
 .award-header {
-    color: yellow;
+    color: black;
     padding: 5px;
     border-radius: 10px;
     width: 100%;
@@ -48,22 +52,21 @@
 
 .container-awards  .saying-mission {
     font-family: 'Times New Roman', Times, serif;
-    color: yellow;
+    color: black;
 }
 
 .box .hedah {
-    color: blue;
+    color: black;
 }
 
 @keyframes anim {
     from {
         font-size: 15px;
-        color: blue;
+        color: black;
     }
 
     to {
         font-size: 100pxpx;
-        color: #00ff15;
     }
 }
 

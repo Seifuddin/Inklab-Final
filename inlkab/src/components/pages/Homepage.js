@@ -7,16 +7,17 @@ import Section from "./herosection";
 
 const Homepage = () => {
     return (
-        <div className="container-homepage container-flex p-5">
-            <div className="homepage container">
-                <div className="box-homepage">
-                    <h1 className="homepage-titl display-4 fw-bold p-2">Transform Your Vision into Stunning Designs</h1>
-                    <p className="second-titl h3 fw-bold p-2 text-white">Proffessional Graphic Design and High-Quality Printing Services Tailored to Your Needs</p>
-                </div>
-
-                <Section />
+        <div className="container-homepage container-flex">
+            <div className="homepage container p-3">
                
             </div>
+            <div className="box-homepage container p-3">
+                    <h1 className="homepage-titl display-4 fw-bold p-2">Transform Your Vision into Stunning Designs</h1>
+                    <p className="second-titl h3 fw-bold p-2 text-white">Proffessional Graphic Design and High-Quality Printing Services Tailored to Your Needs</p>
+                    <Section />
+                </div>
+
+
         </div>
 
     );

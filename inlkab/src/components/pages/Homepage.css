@@ -12,6 +12,20 @@
     color: yellow;
 }
 
+.homepage {
+    background-color: black;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+.box-homepage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
 .box-homepage .second-titl {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
