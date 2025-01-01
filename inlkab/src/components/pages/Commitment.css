@@ -1,16 +1,18 @@
 .container-commitment {
 }
 
-.header-commitment {
-    color: red;
+.head-commitment {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 
 .imeg-commitment {
     width: 30%;
     height: auto;
     border-radius: 10%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 
 .box-commitment {
     border-radius: 3px solid gray;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }

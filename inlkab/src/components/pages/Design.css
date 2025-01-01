@@ -2,9 +2,11 @@
     width: 70%;
     height: 100px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .box-design {
     width: 100%;
     height: auto;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }

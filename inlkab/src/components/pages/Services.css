@@ -4,8 +4,9 @@
 
 .img-digitalprnt {
     position: relative;
-    width: 130px;
-    height: 130px;
+    width: 65%;
+    height: 100px;
+    margin-top: 10px;
 }
 
 .box-digitalprinting {
@@ -13,9 +14,10 @@
     height: auto;
     min-height: 95%;
     margin: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 
-.imagebackground2 {
+.box-homepage1 {
     background-image: url('../images/891aa274f7fd54c02a1b2e5a16f4ff8b.jpg');
     background-size: cover; /* cover the entire background */
     background-position: center; /*center the background*/

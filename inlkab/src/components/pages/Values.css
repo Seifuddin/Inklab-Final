@@ -3,7 +3,8 @@
 }
 
 .box-values {
-    background-color: aquamarine;
+    background-color: white;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
     width: 100%;
     height: 90%;
     padding: 20px;
@@ -12,21 +13,12 @@
     color: black;
 }
 
-.box-values2 {
-    width: 100%;
-    height: 90%;
-    padding: 20px;
-    border: 2px solid rgb(206, 202, 202);
-    border-radius: 5px;
-}
-
 .head-values {
     color: red;
 }
 
-.par-values {
-    font-family: sans-serif;
-    font-size: 1.3rem;
+.value {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .img-value {

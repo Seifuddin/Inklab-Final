@@ -12,16 +12,16 @@ const Products = () => {
     const Ict = ["Cyber Setup", "Networking Systems", "Development and Maintenance", "Web design", "Web Development", "Mobile App", "ICT Consultation"];
 
     return (
-        <div className="container-products border rounded mt-5 bg-white">
-            <h1 className="header-product text-center display-5 fw-bold p-3">Products and services</h1>
-            <h3 className="h3 text-center p-3 text-primary">We offer a vast array of proffessional services in: Branding, Large Scale, Offset Printing, Digital Printing and graphic design at competitive prices. Ask us about any item you're interested in, and we'll make sure to satisfy your needs.</h3>
+        <div className="container-products border rounded mt-5 bg-light">
+            <h1 className="header-product text-center display-5 fw-bold p-3 text-dark">Products and services</h1>
+            <h3 className="par-histry h3 text-center p-3 text-dark">We offer a vast array of proffessional services in: Branding, Large Scale, Offset Printing, Digital Printing and graphic design at competitive prices. Ask us about any item you're interested in, and we'll make sure to satisfy your needs.</h3>
             <div className="row m-5">
                 <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div className="box-products container bg-light border rounded p-2">
+                    <div className="box-products container bg-white border rounded p-2">
                         <a href={printingservices} target="_blank" rel="noopener noreferrer">
                             <img className="img-printin" src={printingservices} alt='printing'/>
                         </a>
-                        <h3 className="service-1 text-center rounded bg-warning m-4">Printing</h3>
+                        <h3 className="service-1 text-center rounded border bg-light mt-2 h4 fw-bold text-dark">Printing</h3>
                         <ul className="item-list h5">
                             {Printing.map((item, index) => (
                                 <li key={index}>{item}</li>
@@ -31,11 +31,11 @@ const Products = () => {
                 </div>
 
                 <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div className="box-products container bg-light border rounded p-2">
+                    <div className="box-products container bg-white border rounded p-2">
                         <a href={brandingservices} target="_blank" rel="noopener noreferrer">
                             <img className="img-printin" src={brandingservices} alt='branding'/>
                         </a>
-                        <h3 className="service-1 text-center rounded bg-warning m-4">Branding</h3>
+                        <h3 className="service-1 text-center rounded border bg-light mt-2 h4 fw-bold text-dark">Branding</h3>
                         <ul className="item-list h5">
                             {Branding.map((item, index) => (
                                 <li key={index}>{item}</li>
@@ -45,11 +45,11 @@ const Products = () => {
                 </div>
 
                 <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div className="box-products container bg-light border rounded p-2">
+                    <div className="box-products container bg-white border rounded p-2">
                         <a href={graficdesign} target="_blank" rel="noopener noreferrer">
                             <img className="img-printin" src={graficdesign} alt='graphicdesign'/>
                         </a>
-                        <h3 className="service-1 text-center rounded bg-warning m-4">Graphic Design</h3>
+                        <h3 className="service-1 text-center rounded border bg-light h4 mt-2 fw-bold text-dark">Graphic Design</h3>
                         <ul className="item-list h5">
                             {Graphics.map((item, index) => (
                                 <li key={index}>{item}</li>
@@ -59,11 +59,11 @@ const Products = () => {
                 </div>
 
                 <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div className="box-products container bg-light border rounded p-2">
+                    <div className="box-products container bg-white border rounded p-2">
                         <a href={ictservices} target="_blank" rel="noopener noreferrer">
                             <img className="img-printin" src={ictservices} alt='ictservices'/>
                         </a>
-                        <h3 className="service-1 text-center rounded bg-warning m-4">ICT Services</h3>
+                        <h3 className="service-1 text-center rounded border bg-light mt-2 h4 fw-bold text-dark">ICT Services</h3>
                         <ul className="item-list h5">
                             {Ict.map((item, index) => (
                                 <li key={index}>{item}</li>

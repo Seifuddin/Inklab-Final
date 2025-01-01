@@ -4,8 +4,8 @@ import './Hours.css';
 const Hours = () => {
 
     return (
-        <div className="container-hours container mt-5 bg-light p-3 border border-danger rounded">
-            <h1 className="head-hours display-6 text-danger text-center fw-bold p-5"> Our Business Hours </h1>
+        <div className="container-hours container mt-5 mb-5 bg-light p-3 border border-danger rounded">
+            <h1 className="head-hours display-6 text-dark text-center fw-bold p-5"> Our Business Hours </h1>
             <div className="hours ">
                 <div className="row border bg-white rounded">
                     <div className="col p-2">

@@ -7,7 +7,7 @@ const Infocontact = () => {
     return (
         <div className="contactinfo container mt-5">
             <div className="infocintact container bg-light p-3 border rounded">
-                <h3 className="head-contact-info display-6 text-warning text-center fw-bold p-5">Contact Information</h3>
+                <h3 className="head-contact-info display-6 text-dark text-center fw-bold p-5">Contact Information</h3>
                 <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">

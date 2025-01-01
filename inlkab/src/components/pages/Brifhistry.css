@@ -15,20 +15,3 @@
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
 }
-
-.img-inklablogoh {
-    width: 30%;
-    height: auto;
-    border-radius: 50%;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%);
-}
-
-.header2-briefhistry {
-}
-
-.header-briefhistry {
-    color: red;
-}

@@ -22,129 +22,129 @@ const Cloth = () => {
 
     return (
         <div className="container-Cloth border rounded bg-white">
-            <div className="cont-Cloth m-5">
-                <h1 className="head-Cloth rounded p-5 text-center text-danger display-6 fw-bold">Cloth Branding</h1>
-                <h1 className="signage-header2 h4 rounded pb-3 text-center text-primary">Turn ordinary apparel into powerful marketing tools with our professional cloth branding services. Whether you need branded t-shirts, caps, uniforms, or other garments, we use high-quality techniques to create durable and visually stunning designs.</h1>
+            <div className="cont-Cloth p-2 pb-5">
+                <h1 className="head-Cloth rounded p-5 text-center text-dark display-6 fw-bold">Cloth Branding</h1>
+                <h1 className="signage-header2 h4 rounded pb-3 text-center text-dark">Turn ordinary apparel into powerful marketing tools with our professional cloth branding services. Whether you need branded t-shirts, caps, uniforms, or other garments, we use high-quality techniques to create durable and visually stunning designs.</h1>
 
                 <div className="row">
                     <div className="col-xxl-3 col-xl-3 col-lg-7 col-md-6 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={tshirt} target="_blank" rel="noopener noreferrer">
                                 <img src={tshirt} alt="tshirts" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">T-Shirts</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">T-Shirts</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-5 col-md-6 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={hoodie} target="_blank" rel="noopener noreferrer">
                                 <img src={hoodie} alt="hoodies" className="img-clothebrnding" />
                             </a>
-                            <h3 className="hh3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Hoodies</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Hoodies</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={jersey} target="_blank" rel="noopener noreferrer">
                                 <img src={jersey} alt="jerseys" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Jerseys</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Jerseys</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={caps} target="_blank" rel="noopener noreferrer">
                                 <img src={caps} alt="caps" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Caps</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Caps</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={reflectors} target="_blank" rel="noopener noreferrer">
                                 <img src={reflectors} alt="reflectors" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Reflectors</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Reflectors</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={flag} target="_blank" rel="noopener noreferrer">
                                 <img src={flag} alt="flags" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Flags</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Flags</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={uniforms} target="_blank" rel="noopener noreferrer">
                                 <img src={uniforms} alt="uniforms" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Uniforms</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Uniforms</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={overalls} target="_blank" rel="noopener noreferrer">
                                 <img src={overalls} alt="overalls" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Overalls</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Overalls</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={bags} target="_blank" rel="noopener noreferrer">
                                 <img src={bags} alt="bags" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Bags</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Bags</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={towels} target="_blank" rel="noopener noreferrer">
                                 <img src={towels} alt="towels" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Towels</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Towels</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-12 ">
-                        <div className="box-clothes border border-3 rounded container p-2 bg-light">
+                        <div className="box-digitalprinting border border-3 rounded container bg-white">
                             <a href={shirts} target="_blank" rel="noopener noreferrer">
                                 <img src={shirts} alt="shirts" className="img-clothebrnding" />
                             </a>
-                            <h3 className="h3-clothes h5 text-center fw-bold m-2  p-1 text-primary">Corporate Shirts</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Corporate Shirts</h3>
                             <h3 className="h3-clothes2 h6 text-center">From Kshs. 100 - Kshs. 100 per A3 size </h3>
-                            <button className="btn-quotation h6 text-center fw-bold m-2 border border-3 border-primary  p-1 text-primary rounded " onClick={handleButtonClick}> Get Quoatation </button>
+                            <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 

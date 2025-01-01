@@ -1,9 +1,4 @@
-.container-mission {
-    background: black;
-}
-
 .container-mission .ttle-aboutus {
-    text-shadow: 0 0 3px black;
 }
 
 .container-mission .saying-mission {
@@ -66,7 +61,6 @@
     color: black;
     position: relative;
     animation: myAnim 2s linear 1s infinite alternate;
-    text-shadow: 0 0 3px black, 0 0 3px gray;
 }
 
 

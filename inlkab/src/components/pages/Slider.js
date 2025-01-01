@@ -31,7 +31,7 @@ const Slider = () => {
   };
 
     return (
-        <div className="container-slider p-5 bg-white">
+        <div className="container-slider p-2 pt-5 bg-white">
             <h1 className="header-slider display-4 text-center fw-bold">Client Testimonials</h1>
             <p className="saying-testimonials text-center h3 p-3">Our greatest achievement is the feedback we receive from satisfied clients who appreciate our dedication and craftmanship. Here ere just a few things they have said about working with us</p>
             <Carousel responsive={responsive}>

@@ -36,13 +36,12 @@ const ContactForm = () => {
 
     return (
         <div className="container-contactusform container">
-            <h3 className="head-contactform display-6 text-danger text-center fw-bold p-5"></h3>
-            <form className="form-contactus container bg-primary p-5 border border-3 border-warning rounded" onSubmit={handleSubmit}>
-            <h3 className="head-contactform display-6 text-white text-center fw-bold p-5">Send Us a message today</h3>
-                <h2 className="headar-formcntct h2 text-center p-3 text-warning rounded border border-white">Contact Us Today</h2>
-                <label className="lbls h4 text-white p-2">Name:</label>
+            <form className="form-contactus container bg-light p-2 mt-5 border border-3 border-warning rounded" onSubmit={handleSubmit}>
+            <h3 className="head-contactform display-6 text-dark text-center fw-bold p-5">Send Us a message</h3>
+                <h2 className="headar-formcntct h2 text-center p-3 text-dark rounded border border-2 bg-white">Contact Us Today</h2>
+                <label className="lbls h4 text-dark p-2">Name:</label>
                 <input
-                    className="inpt p-2"
+                    className="inpt p-2 bg-white border border-2"
                     type="text"
                     name="name"
                     value={formData.name}
@@ -50,9 +49,9 @@ const ContactForm = () => {
                     required
                 />
 
-                <label className="lbls h4 text-white p-2">Email:</label>
+                <label className="lbls h4 text-dark p-2">Email:</label>
                 <input
-                    className="inpt p-2"
+                    className="inpt p-2 bg-white border border-2"
                     type="email"
                     name="email"
                     value={formData.email}
@@ -60,25 +59,25 @@ const ContactForm = () => {
                     required
                 />
 
-                <label className="lbls h4 text-white p-2">Phone:</label>
+                <label className="lbls h4 text-dark p-2">Phone:</label>
                 <input
-                    className="inpt p-2"
+                    className="inpt p-2 bg-white border border-2"
                     type="tel"
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
                 />
 
-                <label className="lbls h4 text-white p-2">Message:</label>
+                <label className="lbls h4 text-dark p-2">Message:</label>
                 <textarea
-                    className="inpt p-2"
+                    className="inpt p-2 bg-white border border-2"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
                     required
                 ></textarea>
 
-                <button className="btn-contact p-2 m-3 h5 rounded rounded" type="submit">Send Message</button>
+                <button className="btn-contact p-2 m-3 h5 border border-2 rounded rounded" type="submit">Send Message</button>
             </form>
             <p>{status}</p>
         </div>

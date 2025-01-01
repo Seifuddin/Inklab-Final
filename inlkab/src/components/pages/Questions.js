@@ -22,13 +22,13 @@ const Questions = () => {
   ];
 
   return (
-    <div className="faq-container container-fluid mt-0 pb-5 bg-light border">
-            <h3 className="Trusted-ttle display-5 text-center m-5 fw-bold"> Frequently asked Questions</h3>
-            <p className="saying-questions h3 text-center p-5 pt-0 fw-bold">"Get the information you want before you print. Everything you need to know know about our printing services"</p>
+    <div className="faq-container mt-0 p-2 pb-5 bg-light border">
+            <h3 className="Trusted-ttle display-5 text-center fw-bold mt-5"> Frequently asked Questions</h3>
+            <p className="saying-questions h3 text-center pt-0 mt-5 mb-5 fw-bold">"Get the information you want before you print. Everything you need to know know about our printing services"</p>
       <div className="faq-grid container">
         {questions.map((item, index) => (
-          <div key={index} className="faq-item">
-            <div className="faq-question h5" onClick={() => toggleDropdown(index)}>
+          <div key={index} className="faq-item service-1 text-center rounded border bg-white h3 fw-bold text-dark">
+            <div className="faq-question h5 fw-bold" onClick={() => toggleDropdown(index)}>
               {item.question}
               <span className="arrow">{openIndex === index ? '▲' : '▼'}</span>
             </div>

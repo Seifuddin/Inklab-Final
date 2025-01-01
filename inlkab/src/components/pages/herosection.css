@@ -1,3 +1,8 @@
 .container-promotionall {
     background-color: lightgray;
 }
+
+.img-promotionall {
+    width: 100%;
+    height: 80px;
+}

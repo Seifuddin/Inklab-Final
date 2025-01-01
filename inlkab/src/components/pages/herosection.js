@@ -60,67 +60,67 @@ const Section = () => {
             <Carousel responsive={responsive}>
                 <div className="Item-1">
                     <a href={pens} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional border" src={pens} alt='pens'/>
+                        <img className="img-promotionall border" src={pens} alt='pens'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={cases} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={cases} alt='cases'/>
+                        <img className="img-promotionall" src={cases} alt='cases'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={bottles} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional border" src={bottles} alt='bottles'/>
+                        <img className="img-promotionall border" src={bottles} alt='bottles'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={pads} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={pads} alt='pads'/>
+                        <img className="img-promotionall" src={pads} alt='pads'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={mugs} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={mugs} alt='mugs'/>
+                        <img className="img-promotionall" src={mugs} alt='mugs'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={tags} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={tags} alt='tags'/>
+                        <img className="img-promotionall" src={tags} alt='tags'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={bands} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={bands} alt='bands'/>
+                        <img className="img-promotionall" src={bands} alt='bands'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={holders} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={holders} alt='holders'/>
+                        <img className="img-promotionall" src={holders} alt='holders'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={disks} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={disks} alt='disks'/>
+                        <img className="img-promotionall" src={disks} alt='disks'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={ids} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={ids} alt='ids'/>
+                        <img className="img-promotionall" src={ids} alt='ids'/>
                     </a>
                 </div>
 
                 <div className="Item-1">
                     <a href={clocks} target="_blank" rel="noopener noreferrer">
-                        <img className="img-promotional" src={clocks} alt='clocks'/>
+                        <img className="img-promotionall" src={clocks} alt='clocks'/>
                     </a>
                 </div>
 

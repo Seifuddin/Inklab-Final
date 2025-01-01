@@ -10,6 +10,7 @@
     color: black;
     font-size: large;
     text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .box-products {
@@ -21,8 +22,8 @@
 }
 
 .service-1 {
-    color: blue;
     text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .img-printin {

@@ -1,16 +1,13 @@
-.container-signage {
-    background-color: darkblue;
-}
-
 .imej-signage {
     width: 80%;
     height: 150px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .box-signage {
     width: 100%;
     height: auto;
     min-height: 95%;
-    background-color: rgb(1, 1, 172);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }

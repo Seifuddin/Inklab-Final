@@ -17,9 +17,9 @@ import critical from '../images/IMG_20241109_002244_764~2.jpg';
 const Clients = () => {
 
     return (
-        <div className="container-clients container-flex bg-white">
-            <div className="sub-clients container rounded p-5">
-                <h1 className="h1-clients h1 fw-bold text-center p-5">Our Clients...</h1>
+        <div className="container-clients p-2 bg-white">
+            <div className="sub-clients container rounded">
+                <h1 className="h1-clients h1 fw-bold text-center p-2 pt-5">Our Clients...</h1>
                 <p className="saying-feedack text-center h3 fw-bold">"Our partners in success. Proudly serving clients from all industries and building lasting relationships through quality printing"</p>
                 <div className="row">
                     <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">

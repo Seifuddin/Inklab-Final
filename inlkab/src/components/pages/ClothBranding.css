@@ -2,10 +2,12 @@
     width: 100%;
     height: auto;
     margin: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 
 .img-clothebrnding {
-    width: 130px;
-    height: 130px;
+    width: 65%;
+    height: 120px;
     border-radius: 10px;
+    margin-top: 10px;
 }
