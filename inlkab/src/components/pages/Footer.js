@@ -2,29 +2,11 @@
 import React from 'react';
 import './Footer.css';
 import inklablogo from '../images/1000040014.jpg';
-import { useNavigate } from 'react-router-dom';
+import Follow from './FollowUs';
 
 function Footer() {
-    const navigate = useNavigate();
-
-    const handleButtonClick = () => {
-        navigate("/Services");
-    };
-
-    const handleButtonClick2 = () => {
-        navigate("/");
-    };
-
-    const handleButtonClick3 = () => {
-        navigate("/About");
-    };
-
-    const handleButtonClick4 = () => {
-        navigate("/Contacts");
-    };
-
   return (
-    <div className="footer container-flex m-0">
+    <div className="footer container-flex">
         <div className="inklabfuter">
                 <img className='inklablogo' src={inklablogo} alt='email' />
          </div>
@@ -35,11 +17,6 @@ function Footer() {
 
          <div className='futa-info mt-5'>
             <div className='row'>
-            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white border text border-secondary rounded bg-secondary" onClick={handleButtonClick}> Services </button>
-            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white border border-secondary rounded bg-secondary" onClick={handleButtonClick2}> Home</button>
-            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white border border-secondary rounded bg-secondary" onClick={handleButtonClick3}> About </button>
-            <button className="btn-home-footer h6 text-center fw-bold m-2 p-1 text-white rounded border border-secondary bg-secondary" onClick={handleButtonClick4}> Contacts </button>
-
                 <div className='col-xl-4 col-lg-4 col-sm-12'>
                     <div className='futabox text-white text-center'>
                         <h4>Other Services</h4>
@@ -133,7 +110,8 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <div className='copyright text-center text-white bg-dark mt-5'>
+        <div className='copyright text-center text-white mt-5'>
+         <Follow />
             <p>Copyright 2022-2024 by lapsa artificial intellince.All Rights Reserved.This website is Designed and maintained by Muriithi Nguru and powered by Lapsa Artificial Intelligence</p>
          </div>
 

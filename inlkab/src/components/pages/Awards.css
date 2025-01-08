@@ -1,31 +1,22 @@
 .container-awards {
-    background-color: rgb(63, 61, 61);
+    background: rgb(2, 2, 70);
+    background-image: url('../images/ai-generated-golden-winner-cup-on-dark-background-photo.jpg');
+    background-size: cover; /* cover the entire background */
+    height: 100vh;
+    background-position: center; /*center the background*/
+    background-repeat: no-repeat; /*avoid image repetition */
+    position: relative;
+}
+
+.box .hedertrophy {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    color: orange;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .Awards-ttle {
-    color: black;
-}
-
-.imgtrophy {
-    max-width: 60%;
-    height: auto;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.box .imgcolnel2 {
-    width: 60%;
-    height: auto;
-    border-radius: 50%;
-    border: 2px solid white;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.hedah {
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    color: orange;
 }
 
 .box {
@@ -33,20 +24,27 @@
     width: 100%;
     height: fit-content;
     overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ .img-trophy {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-.box .col {
-    margin: 10px;
-    background-color: rgb(63, 65, 65);
-    border-radius: 15px;
-    padding: 10px;
+.collum {
+    background: rgb(53, 52, 52);
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
 }
 
 .award-header {
-    color: black;
-    padding: 5px;
-    border-radius: 10px;
-    width: 100%;
     font-family:  'Times New Roman', Times, serif;
 }
 

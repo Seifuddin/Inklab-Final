@@ -3,6 +3,9 @@
     height: 100px;
     border-radius: 10px;
     margin-top: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .box-design {

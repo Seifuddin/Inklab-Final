@@ -1,11 +1,14 @@
 .head-address {
-    color: red;
+    color: orange;
 }
 
 .img-location {
-    width: 40%;
+    width: 70%;
     height: auto;
     border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .p-open {
@@ -14,14 +17,10 @@
     border-radius: 10px;
 }
 
-.h1-address {
-    color: red;
+.box-address .h1-address {
+    color: orange;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
-}
-
-.roww {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 

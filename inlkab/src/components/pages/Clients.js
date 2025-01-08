@@ -15,120 +15,35 @@ import sombe from '../images/IMG_20241109_002244_764~2.jpg';
 import critical from '../images/IMG_20241109_002244_764~2.jpg';
 
 const Clients = () => {
+    const images = [
+        { src: facebook, name: "Facebook" },
+        { src: gok, name: "Government of Kenya" },
+        { src: lemaiyan, name: "Lemaiyan" },
+        { src: kisasi, name: "Kisasi Secondary School" },
+        { src: alma, name: "Alma Brands" },
+        { src: algorithmic, name: "Algorithmic Coding School" },
+        { src: motospot, name: "Motospot" },
+        { src: mangu, name: "Mangu High School" },
+        { src: nima, name: "NIMA East Africa" },
+        { src: serene, name: "Serene Haven" },
+        { src: aggrey, name: "DR. Aggrey High School" },
+        { src: sombe, name: "AIC Sombe Girls School" },
+        { src: critical, name: "Critical Klothing" },
+    ];
 
     return (
-        <div className="container-clients p-2 bg-white">
-            <div className="sub-clients container rounded">
-                <h1 className="h1-clients h1 fw-bold text-center p-2 pt-5">Our Clients...</h1>
-                <p className="saying-feedack text-center h3 fw-bold">"Our partners in success. Proudly serving clients from all industries and building lasting relationships through quality printing"</p>
-                <div className="row">
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={gok} target="_blank" rel="noopener noreferrer">
-                                <img src={gok} alt="gok" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Government of Kenya</h3>
+        <div className="container-clients pb-5">
+            <h1 className="h1-clients h1 fw-bold text-center p-2 pt-5 text-dark">Our Clients</h1>
+            <p className="saying-feedback text-center h3 fw-bold pb-3 ">
+            </p>
+            <div className="marquee-container">
+                <div className="marquee">
+                    {images.concat(images).map((client, index) => (
+                        <div key={index} className="marquee-item border border-2 bg-light rounded">
+                            <img src={client.src} alt={client.name} className="client-logo bg-light" />
+                            <h3 className="client-name text-center p-1 bg-light">{client.name}</h3>
                         </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={lemaiyan} target="_blank" rel="noopener noreferrer">
-                                <img src={lemaiyan} alt="lemaiyan" className="facebook border" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Lemaiyan</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={aggrey} target="_blank" rel="noopener noreferrer">
-                                <img src={aggrey} alt="aggrey" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">DR. Aggrey High School</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={mangu} target="_blank" rel="noopener noreferrer">
-                                <img src={mangu} alt="mangu" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Mangu High School</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={sombe} target="_blank" rel="noopener noreferrer">
-                                <img src={sombe} alt="sombe" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">AIC Sombe Girls School</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={serene} target="_blank" rel="noopener noreferrer">
-                                <img src={serene} alt="serene" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Serene Haven</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={alma} target="_blank" rel="noopener noreferrer">
-                                <img src={alma} alt="alma" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Alma Brands</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={algorithmic} target="_blank" rel="noopener noreferrer">
-                                <img src={algorithmic} alt="algorithmic" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Algorithmic Coding School</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={nima} target="_blank" rel="noopener noreferrer">
-                                <img src={nima} alt="nima" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">NIMA East Africa</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={critical} target="_blank" rel="noopener noreferrer">
-                                <img src={critical} alt="critiacal" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Cittificial Klothing</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={motospot} target="_blank" rel="noopener noreferrer">
-                                <img src={motospot} alt="motospot" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Motospot</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-                        <div className="box-clients m-3">
-                            <a href={kisasi} target="_blank" rel="noopener noreferrer">
-                                <img src={kisasi} alt="kisasi" className="facebook" />
-                            </a>
-                            <h3 className="h3-clients h6 text-center fw-bold">Kisasi Secondary School</h3>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>
@@ -136,3 +51,4 @@ const Clients = () => {
 };
 
 export default Clients;
+

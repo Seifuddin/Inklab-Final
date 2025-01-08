@@ -4,6 +4,8 @@
 
 .img-digitalprnt {
     position: relative;
+    left: 50%;
+    transform: translate(-50%);
     width: 65%;
     height: 100px;
     margin-top: 10px;
@@ -31,4 +33,15 @@
     background-position: center; /*center the background*/
     background-repeat: no-repeat; /*avoid image repetition */
     z-index: -1;
+}
+
+.box-digitalprinting .h3-clients1 {
+    color: orange;
+}
+
+.btn-quotation {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: orange;
 }

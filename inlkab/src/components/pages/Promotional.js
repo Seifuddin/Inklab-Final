@@ -56,85 +56,85 @@ const Promotional = () => {
   };
 
     return (
-        <div className="container-promotional p-2 bg-white">
-            <h1 className="header-promotional display-4 text-center fw-bold">Promotional Items</h1>
-            <p className="saying-promotional h3 text-center pb-5">"Boost your brand with custom promotional products that get you noticed"</p>
+        <div className="container-promotional container-flex p-2">
+            <h1 className="header-promotional display-4 text-center fw-bold text-dark">Promotional Items</h1>
+            <p className="saying-promotional h3 text-center pb-5 text-dark fw-bold">"Boost your brand with custom promotional products that get you noticed"</p>
             <Carousel responsive={responsive}>
                 <div className="Item-1">
                     <a href={pens} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional border" src={pens} alt='pens'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Pens</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Pens</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={cases} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={cases} alt='cases'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Phone Cases</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Phone Cases</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={bottles} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional border" src={bottles} alt='bottles'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Bottles & Flasks</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Bottles & Flasks</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={pads} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={pads} alt='pads'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Mouse Pads </h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Mouse Pads </h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={mugs} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={mugs} alt='mugs'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Mugs </h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Mugs </h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={tags} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={tags} alt='tags'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Name tags</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Name tags</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={bands} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={bands} alt='bands'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Wrist Bands</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Wrist Bands</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={holders} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={holders} alt='holders'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Key Holders</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Key Holders</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={disks} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={disks} alt='disks'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> Hard Drives</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> Hard Drives</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={ids} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={ids} alt='ids'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> ID cards</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> ID cards</h1>
                 </div>
 
                 <div className="Item-1">
                     <a href={clocks} target="_blank" rel="noopener noreferrer">
                         <img className="img-promotional" src={clocks} alt='clocks'/>
                     </a>
-                    <h1 className="service-1 text-center h6 fw-bold text-dark mt-2"> ID cards</h1>
+                    <h1 className="service-1 text-center h6 fw-bold mt-2 bg-light"> ID cards</h1>
                 </div>
 
             </Carousel>;

@@ -1,19 +1,22 @@
 .container-contactusform {
-    position: relative;
-    top: 0;
 }
 
 .inpt {
-    width: 70%;
+    width: 90%;
     height: auto;
     border: none;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .lbls {
+    text-align: center;
     width: 100%;
-    height: auto;
-
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .btn-contact {
@@ -21,7 +24,7 @@
 }
 
 .headar-formcntct {
-    width: 50%;
+    width: 80%;
     height: auto;
     position: relative;
     left: 50%;
@@ -29,12 +32,15 @@
 }
 
 .form-contactus .btn-contact {
-    background: red;
-    color: white;
+    background: orange;
+    color: black;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .btn-contact:hover {
-    background-color: yellow;
-    color: red;
+    background-color: orangered;
+    color: black;
     border: 1px solid red;
 }

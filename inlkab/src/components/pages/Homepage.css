@@ -1,6 +1,6 @@
 .container-homepage {
     background: rgb(2, 2, 70);
-    background-image: url('../images/8-2.jpg');
+    background-image: url('../images/scientists-analyzing-data-computer-lab_1318161-2901.avif');
     background-size: cover; /* cover the entire background */
     height: 100vh;
     background-position: center; /*center the background*/
@@ -9,11 +9,12 @@
 
 .homepage-titl {
     text-align: left;
-    color: yellow;
+    color: orange;
 }
 
 .homepage {
     background-color: black;
+    width: 100%;
     height: 100vh;
     opacity: 0.5;
 }
@@ -31,9 +32,28 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.img-konika {
-    width: 60%;
+.btn-quotation1 {
+    color: white;
+    background-color: orange;
+    width: 25%;
+    height: auto;
+    text-align: center;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+}
+
+.bx-expe {
+    margin: 2px;
+    background-color: rgb(97, 94, 94);
+    border: 1px solid whitesmoke;
+}
+
+.imejj {
+    width: 50px;
+    height: 50px;
+}
+
+.hedd {
+    color: orange;
 }

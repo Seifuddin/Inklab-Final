@@ -3,11 +3,8 @@ import './About.css';
 import History from "./Brifhistry";
 import Values from "./Values";
 import TheTeam from "./Theteam";
-import Seniors from "./TeamSeniors";
 import Address from "./Adress";
 import Products from "./Products";
-import Quality from "./Quality";
-import Commitment from "./Commitment";
 
 const About = () => {
 
@@ -17,9 +14,6 @@ const About = () => {
             <History />
             <Values />
             <Products />
-            <Quality />
-            <Commitment />
-            <Seniors />
             <TheTeam />
             <Address />
         </div>

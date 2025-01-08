@@ -20,7 +20,7 @@ const Commitment = () => {
             <p className="par-histry text-center h3 p-3 text-dark"> Environmentally Responsible Printing Practices. </p>
             < div className="row">
                 <div className="col m-2">
-                    <div className="box-commitment p-5 container border bg-white border-2 rounded">
+                    <div className="box-commitment p-5 container rounded">
                         <img src={eco} alt="inhoussechecks" className="imeg-commitment" onClick={handleImageClick}/>
                         {isModalOpen && (
                             <div className="modal" onClick={closeModal}>
@@ -37,7 +37,7 @@ const Commitment = () => {
 
             < div className="row">
                 <div className="col m-2">
-                    <div className="box-commitment p-5 container border bg-white border-2 rounded">
+                    <div className="box-commitment p-5 container rounded">
                         <img src={toner} alt="inhoussechecks" className="imeg-commitment" onClick={handleImageClick}/>
                         {isModalOpen && (
                             <div className="modal" onClick={closeModal}>

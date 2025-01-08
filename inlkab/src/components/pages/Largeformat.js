@@ -33,176 +33,176 @@ const LargeFormat = () => {
 
                 <div className="row">
                     <div className="col-xxl-3 col-xl-3 col-lg-12 col-md-6 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={bannerz} target="_blank" rel="noopener noreferrer">
                                 <img src={bannerz} alt="banners" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Banners & Wallpapers</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Banners & Wallpapers</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={wheel} target="_blank" rel="noopener noreferrer">
                                 <img src={wheel} alt="wheelcovers" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark"> Wheel Covers (for cars)</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1"> Wheel Covers (for cars)</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={xstand} target="_blank" rel="noopener noreferrer">
                                 <img src={xstand} alt="xstand" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">X Stand Banners</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">X Stand Banners</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={broadbase} target="_blank" rel="noopener noreferrer">
                                 <img src={broadbase} alt="broadbase" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Broadbase Banners</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Broadbase Banners</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={teardrop} target="_blank" rel="noopener noreferrer">
                                 <img src={teardrop} alt="teardrop" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Tear Drop Banners</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Tear Drop Banners</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={popup} target="_blank" rel="noopener noreferrer">
                                 <img src={popup} alt="popupbanners" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Pop Up Banners</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Pop Up Banners</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={umbrella} target="_blank" rel="noopener noreferrer">
                                 <img src={umbrella} alt="umbrella" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Umbrella Brandings</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Umbrella Brandings</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={backdrop} target="_blank" rel="noopener noreferrer">
                                 <img src={backdrop} alt="backdrop" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Back Drop Banners</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Back Drop Banners</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={vinyl} target="_blank" rel="noopener noreferrer">
                                 <img src={vinyl} alt="vinyl" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Vinyl Bannerss</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Vinyl Bannerss</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={vehiclez} target="_blank" rel="noopener noreferrer">
                                 <img src={vehiclez} alt="vehiclebranding" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Vehicle Branding</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Vehicle Branding</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={kitc} target="_blank" rel="noopener noreferrer">
                                 <img src={kitc} alt="kitc" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Kit C Pop Up Stands</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Kit C Pop Up Stands</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={outdoor} target="_blank" rel="noopener noreferrer">
                                 <img src={outdoor} alt="outdoor" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Out Door Umbrella</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Out Door Umbrella</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={popuptent} target="_blank" rel="noopener noreferrer">
                                 <img src={popuptent} alt="popuptents" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Pop-Up Tent Deluxe Kit</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Pop-Up Tent Deluxe Kit</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-6">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={snapper} target="_blank" rel="noopener noreferrer">
                                 <img src={snapper} alt="snapper" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Snapper Frames</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Snapper Frames</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={forex} target="_blank" rel="noopener noreferrer">
                                 <img src={forex} alt="forex" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Forex Board Printing</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Forex Board Printing</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-6 ">
-                        <div className="box-digitalprinting border border-3 rounded container bg-white">
+                        <div className="box-digitalprinting rounded container bg-white">
                             <a href={wallstickers} target="_blank" rel="noopener noreferrer">
                                 <img src={wallstickers} alt="wallstickers" className="img-LargeFormat" />
                             </a>
-                            <h3 className="h3-clients1 h6 text-center fw-bold p-1 text-dark">Wall stickers & Canvas</h3>
+                            <h3 className="h3-clients1 h6 text-center fw-bold p-1">Wall stickers & Canvas</h3>
                             <h3 className="h3-lformat2 h6 text-center text-dark">From Kshs. 100 - Kshs. 100 per A3 size </h3>
                             <button className="btn-quotation h6 text-center m-2 border rounded p-2 rounded" onClick={handleButtonClick}> Quoatation </button>
                         </div>

@@ -30,7 +30,7 @@ const Quality = () => {
                             </div>
                         )}
 
-                    <h1 className="service-1 text-center rounded border bg-light mt-2 h4 fw-bold text-dark p-2"> In-House Checks and Proofing process</h1>
+                    <h1 className="service-1 text-center rounded mt-2 h4 fw-bold text-dark p-2"> In-House Checks and Proofing process</h1>
                     <p className="par-quality text-center h5 p-2 rounded"> Each print job undergo a two-step quality inspection before it is deliverd. Our team checks for accurate colors, clarity, and alignment to meet customer expectations.   Before we go to final print, we provide digital proofs to customers, ensuring that all text, images, and colors meet their approval. </p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Quality = () => {
                             </div>
                         )}
 
-                    <h1 className="service-1 text-center rounded border bg-light mt-2 h4 fw-bold text-dark p-2"> Advanced Technology Printing </h1>
+                    <h1 className="service-1 text-center rounded mt-2 h4 fw-bold text-dark p-2"> Advanced Technology Printing </h1>
                     <p className="par-quality text-center h5 p-2 rounded"> We use latest Konika Minolta Digital Printers, known for their precise color matching and versatility on a wide range of materials, ensuring each project looks as exactly as envisioned. We also use automated systems for speed and precision. Our automated workflow system reduce manual intervention, allowing us to complete large orders quickly and consistently while minimizing human error. </p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const Quality = () => {
                             </div>
                         )}
 
-                    <h1 className="service-1 text-center rounded border bg-light mt-2 h4 fw-bold text-dark p-2"> Top Quality Materials </h1>
+                    <h1 className="service-1 text-center rounded mt-2 h4 fw-bold text-dark p-2"> Top Quality Materials </h1>
                     <p className="par-quality text-center h5 p-2 rounded"> We use a wide selection of high-gradee paper types to suite different printing needs, from glossy and matte to textured and recycled options.   Our company invests in eco-friendly, fade-resistant inks that deliver deep, rich colors Using UV-resistant and water based inks ensures that your prints retain their brightness and clarity, even with prolonged exposure to sunlight or handling. </p>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ const Quality = () => {
                             </div>
                         )}
 
-                    <h1 className="service-1 text-center rounded border bg-light mt-2 h4 fw-bold text-dark p-2"> Continous Improvement and and Regular maintenance </h1>
+                    <h1 className="service-1 text-center rounded mt-2 h4 fw-bold text-dark p-2"> Continous Improvement and and Regular maintenance </h1>
                     <p className="par-quality text-center h5 p-2 rounded"> Our machinery undergoes routine inspections and servicing to ensure optimal performance and minimize downtime. By maintaining our equipment, we ensure that every print meets our high standards for quality, accuracy, and consistency. </p>
                     </div>
                 </div>

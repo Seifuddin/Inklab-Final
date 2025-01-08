@@ -8,25 +8,34 @@
     width: 100%;
     height: 90%;
     padding: 20px;
-    border: 2px solid rgb(206, 202, 202);
+    border: 2px solid orange;
     border-radius: 5px;
     color: black;
 }
 
-.head-values {
-    color: red;
+.head-histry, .head-values {
+    color: orange;
 }
 
-.value {
+.box-values .value {
     font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    color: orange;
 }
 
 .img-value {
     width: 70%;
     height: 70%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .img-value2 {
     width: 50%;
     height: auto;
+}
+
+.brif-sub {
+    background-color: beige;
 }

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import './Calculator.css';
-import inklablogoh from '../images/1000040014.jpg';
 
 const Calculator = () => {
     const [paperType, setPaperType] = useState("");
@@ -33,11 +32,8 @@ const Calculator = () => {
 
     return (
         <div className="container-calc p-5 bg-light">
-            <a href={inklablogoh} target="_blank" rel="noopener noreferrer">
-                <img className="img-inklablogoh" src={inklablogoh} alt='inklab logo'/>
-            </a>
             <h1 className="header-briefhistry display-6 fw-bold text-center">Inklab Graphics Ltd...</h1>
-            <h2 className="header-calc display-5 p-5 text-center ">Fill in the details and get your Quotation Now</h2>
+            <h2 className="header-calc display-5 p-5 text-center ">Calculator</h2>
 
             <div className="container-calc bg-light p-5 rounded-2 border border-3">
                 <form className="form-calc container">
@@ -85,7 +81,7 @@ const Calculator = () => {
                     </div>
 
                     <div className="container-form1 p-4 mt-3">
-                        <button className="btn-calc p-1 h5 rounded-3 bg-primary text-white border-primary mt-4" type="button" onClick={calculatePrice}>Calculate price</button>
+                        <button className="btn-calc p-1 h5 rounded-3 text-white border-primary mt-4" type="button" onClick={calculatePrice}>Calculate price</button>
                     </div>
                 </form>
 

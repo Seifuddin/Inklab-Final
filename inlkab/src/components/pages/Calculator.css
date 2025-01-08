@@ -6,6 +6,11 @@
 .btn-calc {
     width: 50%;
     height: auto;
+    background-color: orange;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .btn-calc:hover {
