@@ -23,8 +23,8 @@ const Cloth = () => {
     return (
         <div className="container-Cloth border rounded bg-white">
             <div className="cont-Cloth p-2 pb-5">
-                <h1 className="head-Cloth rounded p-5 text-center display-6 fw-bold">Cloth Branding</h1>
-                <h1 className="signage-header2 h4 rounded pb-3 text-center text-dark">Turn ordinary apparel into powerful marketing tools with our professional cloth branding services. Whether you need branded t-shirts, caps, uniforms, or other garments, we use high-quality techniques to create durable and visually stunning designs.</h1>
+                <h1 className="head-digitalprint rounded p-2 text-center h5lay-6 fw-bold">Cloth Branding</h1>
+                <h1 className="signage-header2 h6 rounded pb-3 text-center text-dark">Turn ordinary apparel into powerful marketing tools with our professional cloth branding services. Whether you need branded t-shirts, caps, uniforms, or other garments, we use high-quality techniques to create durable and visually stunning designs.</h1>
 
                 <div className="row">
                     <div className="col-xxl-3 col-xl-3 col-lg-7 col-md-6 col-6 ">

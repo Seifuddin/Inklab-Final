@@ -1,8 +1,6 @@
 import React from "react";
 import './Contacts.css';
-import Follow from "./FollowUs";
 import Infocontact from "./Contact-info";
-import Hours from "./Hours";
 import ContactForm from "./Form-Contact";
 
 const Contact = () => {
@@ -19,7 +17,6 @@ const Contact = () => {
             
             <Infocontact />
             <ContactForm />
-            <Hours />
         </div>
     );
 };

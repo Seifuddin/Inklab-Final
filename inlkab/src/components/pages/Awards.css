@@ -22,7 +22,7 @@
 .box {
     display: block;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -30,7 +30,7 @@
     transform: translate(-50%, -50%);
 }
  .img-trophy {
-    width: 40%;
+    width: 100%;
     height: auto;
     border-radius: 5px;
     position: relative;
@@ -42,6 +42,7 @@
     background: rgb(53, 52, 52);
     border-radius: 5px;
     border: 1px solid whitesmoke;
+    margin: 5px;
 }
 
 .award-header {

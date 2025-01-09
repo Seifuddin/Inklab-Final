@@ -1,6 +1,6 @@
 import React from "react";
 import './OurTeam.css';
-import ceo from '../images/General_Service_Unit.jpg';
+import ceo from '../images/IMG_20240804_185749_718~2.jpg';
 import gmailCliff from '../images/gratis-png-direccion-de-correo-electronico-iconos-de-la-computadora-logo-usuario-gmail.png';
 import whatsappCliff from '../images/pngtree-whatsapp-icon-png-image_3584845.jpg';
 

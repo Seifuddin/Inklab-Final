@@ -20,8 +20,8 @@ const Design = () => {
 
     return (
         <div className="container-design p-2 bg-white border">
-            <h1 className="design-header container rounded p-5 text-center text-dark display-6 fw-bold">Other Services</h1>
-            <h1 className="signage-header2 h4 rounded pb-4 text-center text-dark">Apart from the basic services, we have many many more services that we have not listed in our website. They include Web design and development, Desktop Applications development, Animations and Cartoons, Video editing, Hand drawing, Painting and Video Adverts</h1>
+            <h1 className="head-digitalprint rounded p-2 text-center h5lay-6 fw-bold pt-5">Other Services</h1>
+            <h1 className="signage-header2 h6 rounded pb-4 text-center text-dark">Apart from the basic services, we have many many more services that we have not listed in our website. They include Web design and development, Desktop Applications development, Animations and Cartoons, Video editing, Hand drawing, Painting and Video Adverts</h1>
             <div className="sub-design">
                 <div className="row">
                     <div className="col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3 col-6">

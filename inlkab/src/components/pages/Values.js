@@ -11,11 +11,11 @@ const Values = () => {
     return (
         <div className="container-values p-2 border rounded bg-white">
             <div className="brif-sub rounded border">
-                <h1 className="head-histry display-6 text-center fw-bold p-2 mt-5">A brief history on Inklab</h1>
-                <p className="par-histry h4 p-4">INKLAB GRAPHICS LTD traces its roots back to 2012 when the current directors ventured into printing business. In the year 2021, a new dream of collaboration and expanding the business got off the ground and was registered unde the business name INKLAB GRAPHICS. An assortment of modern machinery was imported to meet the demands of the current world. Along with this, the business grew from a simple paper printong shop to an expensive branding firm; adding to its core: cup branding, t-shirt printing, embroidery and paper bag printing alon with the traditional paper printing( receipt books, business cards, posters, fliers & tickets). In 2024, the business became a fully fledged company under the name: INKLAB GRAPHICS LTD. Further, the company has added more office space. In future, the company seeks to join 3D printing.</p>
+                <h1 className="head-digitalprint rounded p-2 text-center h5lay-6 fw-bold pt-5">A brief history on Inklab</h1>
+                <p className="par-histry h5 p-4">INKLAB GRAPHICS LTD traces its roots back to 2012 when the current directors ventured into printing business. In the year 2021, a new dream of collaboration and expanding the business got off the ground and was registered unde the business name INKLAB GRAPHICS. An assortment of modern machinery was imported to meet the demands of the current world. Along with this, the business grew from a simple paper printong shop to an expensive branding firm; adding to its core: cup branding, t-shirt printing, embroidery and paper bag printing alon with the traditional paper printing( receipt books, business cards, posters, fliers & tickets). In 2024, the business became a fully fledged company under the name: INKLAB GRAPHICS LTD. Further, the company has added more office space. In future, the company seeks to join 3D printing.</p>
             </div>
-            <h1 className="head-values display-6 text-center fw-bold p-3 mt-5">Our Core Values</h1>
-            <h1 className="par-histry h3 text-center p-3 pb-5 text-dark">At the heart of our success lies a steadfast commitment to the values that define who we are  and guide everything we do</h1>
+            <h1 className="head-digitalprint rounded p-2 text-center h5lay-6 fw-bold pt-5">Our Core Values</h1>
+            <h1 className="par-histry h5 text-center p-3 pb-5 text-dark">At the heart of our success lies a steadfast commitment to the values that define who we are  and guide everything we do</h1>
             <div className="row">
                 <div className="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 col-6">
                     <div className="box-values container">

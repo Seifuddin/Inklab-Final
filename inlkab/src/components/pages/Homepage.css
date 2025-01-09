@@ -1,5 +1,4 @@
 .container-homepage {
-    background: rgb(2, 2, 70);
     background-image: url('../images/scientists-analyzing-data-computer-lab_1318161-2901.avif');
     background-size: cover; /* cover the entire background */
     height: 100vh;
@@ -45,13 +44,13 @@
 
 .bx-expe {
     margin: 2px;
-    background-color: rgb(97, 94, 94);
+    background-color: rgb(51, 51, 51);
     border: 1px solid whitesmoke;
 }
 
 .imejj {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .hedd {

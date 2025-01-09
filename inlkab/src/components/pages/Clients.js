@@ -33,7 +33,7 @@ const Clients = () => {
 
     return (
         <div className="container-clients pb-5">
-            <h1 className="h1-clients h1 fw-bold text-center p-2 pt-5 text-dark">Our Clients</h1>
+            <h1 className="ourservices-header h2 fw-bold text-center p-2">Our Clients</h1>
             <p className="saying-feedback text-center h3 fw-bold pb-3 ">
             </p>
             <div className="marquee-container">

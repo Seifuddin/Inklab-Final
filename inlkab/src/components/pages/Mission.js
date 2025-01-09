@@ -1,6 +1,6 @@
 import React from "react";
 import './Mission.css';
-import pic from '../images/+254 111608331 20231216_170428.jpg';
+import pic from '../images/graphic-designers-vs-logo-designers.webp';
 import { useNavigate } from "react-router-dom";
 
 const Mission = () => {
@@ -12,8 +12,8 @@ const Mission = () => {
 
     return (
         <div className="container-mission container-flex bg-white p-1">
-            <h2 className="ttle-aboutus text-center display-5 fw-bold text-dark">About Us</h2>
-            <p className="saying-mission text-center h3 pb-5 pt-3 fw-bold">We're more than just a printing company. We're your creative partner, dedicated to helping individuals and businesses alike bring their ideas to life with vibrant, high-quality prints.</p>
+            <h2 className="head-digitalprint rounded p-2 text-center h2 fw-bold pt-5">About Us</h2>
+            <p className="saying-mission text-center h5 pb-5 pt-3 fw-bold">We're more than just a printing company. We're your creative partner, dedicated to helping individuals and businesses alike bring their ideas to life with vibrant, high-quality prints.</p>
             <div className="row rounded bg-light border">
                 <div className="col-xxl-6 col-xl-6 col-lg-5 col-12">
                     <div className="pic-about m-0">

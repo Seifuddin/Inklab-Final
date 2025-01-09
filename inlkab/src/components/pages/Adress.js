@@ -6,7 +6,7 @@ const Address = () => {
 
     return (
         <div className="container-address border rounded mt-5 bg-light">
-            <h1 className="head-address display-5 fw-bold text-center p-3"> Visit Us</h1>
+            <h1 className="head-digitalprint rounded p-2 text-center h5lay-6 fw-bold pt-5"> Visit Us</h1>
             <div className="roww row bg-light">
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
                     <div className="box-address container">

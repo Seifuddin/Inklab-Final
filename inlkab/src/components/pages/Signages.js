@@ -18,8 +18,8 @@ const Signage = () => {
 
     return (
         <div className="container-signage border p-2 pb-5 bg-light">
-            <h1 className="signage-header rounded pt-5 text-center text-dark display-5 fw-bold m-4">Signages</h1>
-            <h1 className="signage-header2 h4 rounded pt-5 text-center text-dark">Enhance your visibility with custom signage solutions tailored to your brand. From indoor displays to outdoor signs, we create high-quality, durable signages that leave a lasting impression.</h1>
+            <h1 className="head-digitalprint rounded p-2 text-center h5lay-6 fw-bold pt-5">Signages</h1>
+            <h1 className="signage-header2 h6 rounded pt-2 text-center text-dark">Enhance your visibility with custom signage solutions tailored to your brand. From indoor displays to outdoor signs, we create high-quality, durable signages that leave a lasting impression.</h1>
             <div className="sub-signage">
                 <div className="row">
                     <div className="col-xxl-4 col-xl-4 col-lg-6 col-sm-6 col-6">

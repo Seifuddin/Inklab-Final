@@ -15,8 +15,8 @@ const Ourservices = () => {
     
     return (
         <div className="container-services container-flex p-2 border bg-light mt-5">
-            <h1 className="ourservices-header display-4 fw-bold text-center p-2">Our services</h1>
-            <p className="saying-services pt-0 h3 text-center fw-bold">Whether you're a business proffessional, an artist, or a student, our range of services ensures we have the right solution for every project.</p>
+            <h1 className="ourservices-header h2 fw-bold text-center p-2 pt-5">Our services</h1>
+            <p className="saying-services pt-0 h5 text-center fw-bold">Whether you're a business proffessional, an artist, or a student, our range of services ensures we have the right solution for every project.</p>
             <div className="sub-ourservices m-3">
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-3">

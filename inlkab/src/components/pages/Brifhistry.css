@@ -4,6 +4,7 @@
     background-position: center; /*center the background*/
     background-repeat: no-repeat; /*avoid image repetition */
     z-index: -1;
+    height: auto;
 }
 
 .head-histry {

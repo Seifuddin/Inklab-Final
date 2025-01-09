@@ -11,13 +11,13 @@ const Infocontact = () => {
                 <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4">Telephone Number:</p>
+                        <p className="par-contact-info h6 fw-bold">Telephone Number:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4">0111 608 331</p>
+                        <p className="par-contact-info2 h6">0111 608 331</p>
                         </div>
                     </div>
                 </div>
@@ -25,13 +25,13 @@ const Infocontact = () => {
                 <div className="row">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4">WhatsApp:</p>
+                        <p className="par-contact-info h6 fw-bold">WhatsApp:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4">0111 608 331</p>
+                        <p className="par-contact-info2 h6">0111 608 331</p>
                         </div>
                     </div>
                 </div>
@@ -39,13 +39,13 @@ const Infocontact = () => {
                 <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4">Email:</p>
+                        <p className="par-contact-info h6 fw-bold">Email:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4">muriithinguru@gmail.com</p>
+                        <p className="par-contact-info2 h6">muriithinguru@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -53,13 +53,13 @@ const Infocontact = () => {
                 <div className="row">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4">YouTube:</p>
+                        <p className="par-contact-info h6 fw-bold">YouTube:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4">Edwin Nguru</p>
+                        <p className="par-contact-info2 h6">Edwin Nguru</p>
                         </div>
                     </div>
                 </div>
@@ -67,13 +67,13 @@ const Infocontact = () => {
                 <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4">Instagram:</p>
+                        <p className="par-contact-info h6 fw-bold">Instagram:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4">Inklab Graphics</p>
+                        <p className="par-contact-info2 h6">Inklab Graphics</p>
                         </div>
                     </div>
                 </div>
@@ -81,13 +81,13 @@ const Infocontact = () => {
                 <div className="row">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4">TikTok:</p>
+                        <p className="par-contact-info h6 fw-boldh4 ">TikTok:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4">Muriithi Nguru</p>
+                        <p className="par-contact-info2 h6">Muriithi Nguru</p>
                         </div>
                     </div>
                 </div>
@@ -95,13 +95,13 @@ const Infocontact = () => {
                 <div className="row border bg-white rounded">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4">Facebook:</p>
+                        <p className="par-contact-info h6 fw-bold">Facebook:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4">Inklab Digital Printers</p>
+                        <p className="par-contact-info2 h6">Inklab Digital Printers</p>
                         </div>
                     </div>
                 </div>
@@ -109,13 +109,13 @@ const Infocontact = () => {
                 <div className="row">
                     <div className="col p-2">
                         <div className="box-contactinfo">
-                        <p className="par-contact-info h4">Website:</p>
+                        <p className="par-contact-info h6 fw-bold">Website:</p>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="box-contactinfo p-2">
-                        <p className="par-contact-info2 h4">www.inklabgraphics.com</p>
+                        <p className="par-contact-info2 h6">www.inklabgraphics.com</p>
                         </div>
                     </div>
                 </div>
